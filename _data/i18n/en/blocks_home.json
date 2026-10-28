@@ -1,0 +1,26 @@
+[
+  {
+    "id": "hero",
+    "nome": "Hero",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"ent-hero\"><div class=\"gc-wrap gc-hero-in\"><div><p class=\"gc-eyebrow\">Practical guides in PDF</p><h1 class=\"gc-h1\">Practical guides you can read in an hour, <em>and apply today.</em></h1><p class=\"gc-lead\">Ebooks on concrete topics: AI at work, personal finance, productivity, wellness and business. Each guide gets straight to the point and tells you what to do, step by step.</p><div class=\"gc-act\"><a class=\"gc-btn gc-btn-a\" href=\"__BASEURL__/en/shop/\">Browse the catalog</a><a class=\"gc-btn gc-btn-o\" href=\"__BASEURL__/en/services/\">How it works</a></div></div><div class=\"ent-cycle\"><div><b>Choose</b><span>Browse the categories and read the ebook description.</span></div><div><b>Buy</b><span>Add to cart and complete the order.</span></div><div><b>Download</b><span>Get the PDF and read it on phone, tablet or computer.</span></div><div><b>Apply</b><span>Every guide ends with concrete things to do.</span></div></div></div></section></div>"
+  },
+  {
+    "id": "categorie",
+    "nome": "Catalog",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"categorie\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Catalog</p><h2 class=\"gc-h2\">Pick the topic you need</h2><p class=\"gc-lead\">Seven categories, each with entry-level ebooks and more complete guides.</p><div class=\"gc-plat ent-4\"><div class=\"gc-pl ent-pl\"><b>AI & Prompts</b><p>Ready-made prompts and methods to use AI at work.</p><p><a class=\"gc-link\" href=\"__BASEURL__/en/shop/category/ai-prompt/\">See the ebooks</a></p></div><div class=\"gc-pl ent-pl\"><b>Creativity</b><p>Writing, photography and design, even from scratch.</p><p><a class=\"gc-link\" href=\"__BASEURL__/en/shop/category/creativita/\">See the ebooks</a></p></div><div class=\"gc-pl ent-pl\"><b>Languages & Study</b><p>Business English and better study methods.</p><p><a class=\"gc-link\" href=\"__BASEURL__/en/shop/category/lingue-studio/\">See the ebooks</a></p></div><div class=\"gc-pl ent-pl\"><b>Personal Growth</b><p>Habits, productivity and organizing your day.</p><p><a class=\"gc-link\" href=\"__BASEURL__/en/shop/category/sviluppo-personale/\">See the ebooks</a></p></div><div class=\"gc-pl ent-pl\"><b>Personal Finance</b><p>Family budget, ETFs and flat-rate VAT.</p><p><a class=\"gc-link\" href=\"__BASEURL__/en/shop/category/finanza/\">See the ebooks</a></p></div><div class=\"gc-pl ent-pl\"><b>Health & Wellness</b><p>Sleep, home workouts and meditation.</p><p><a class=\"gc-link\" href=\"__BASEURL__/en/shop/category/salute/\">See the ebooks</a></p></div><div class=\"gc-pl ent-pl\"><b>Business</b><p>E-commerce, freelancing and SEO for small sites.</p><p><a class=\"gc-link\" href=\"__BASEURL__/en/shop/category/business/\">See the ebooks</a></p></div></div></div></section></div>"
+  },
+  {
+    "id": "metodo",
+    "nome": "How it works",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"metodo\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">How it works</p><h2 class=\"gc-h2\">From choosing to reading</h2><div class=\"gc-plat ent-4\"><div class=\"gc-pl\"><span class=\"n\">01</span><b>Choose</b><p>Browse the categories and read the ebook description.</p></div><div class=\"gc-pl\"><span class=\"n\">02</span><b>Buy</b><p>Add to cart and complete the order.</p></div><div class=\"gc-pl\"><span class=\"n\">03</span><b>Download</b><p>Get the PDF and read it on phone, tablet or computer.</p></div><div class=\"gc-pl\"><span class=\"n\">04</span><b>Apply</b><p>Every guide ends with concrete things to do.</p></div></div></div></section></div>"
+  },
+  {
+    "id": "contatti",
+    "nome": "Contact",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-dark\" id=\"contatti\"><div class=\"gc-wrap\"><h2 class=\"gc-h2\">Have a question?</h2><p class=\"gc-lead\">Write to us before you buy: we are happy to help.</p><a class=\"gc-btn\" href=\"__BASEURL__/en/contact/\">Contact us</a></div></section></div>"
+  }
+]

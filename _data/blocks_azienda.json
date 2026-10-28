@@ -1,0 +1,14 @@
+[
+  {
+    "id": "chi",
+    "nome": "Chi siamo",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"chi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Chi siamo</p><h2 class=\"gc-h2\">Guide pratiche, scritte per essere usate</h2><p class=\"gc-lead\">Casa Editrice Ebook pubblica ebook in italiano su temi di tutti i giorni: lavoro, soldi, studio, benessere. Niente teoria inutile: ogni guida spiega come fare una cosa precisa.</p><p>Pubblichiamo in PDF, così si legge ovunque e resta tuo. Ogni titolo ha una descrizione chiara di cosa contiene prima dell'acquisto.</p></div></section></div>"
+  },
+  {
+    "id": "principi",
+    "nome": "Principi",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"principi\"><div class=\"gc-wrap\"><h2 class=\"gc-h2\">Come ci comportiamo</h2><div class=\"gc-plat\"><div class=\"gc-pl\"><span class=\"n\">1</span><b>Chiarezza</b><p>Scriviamo in modo semplice e diciamo subito cosa trovi in ogni ebook.</p></div><div class=\"gc-pl\"><span class=\"n\">2</span><b>Utilità</b><p>Ogni guida porta a qualcosa da fare, non solo da leggere.</p></div><div class=\"gc-pl\"><span class=\"n\">3</span><b>Onestà</b><p>Niente promesse di guadagni facili: spieghiamo cosa funziona e quanto impegno richiede.</p></div></div></div></section></div>"
+  }
+]

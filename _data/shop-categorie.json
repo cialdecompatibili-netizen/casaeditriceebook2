@@ -1,0 +1,846 @@
+[
+  {
+    "nome": "ai-prompt",
+    "slug": "ai-prompt"
+  },
+  {
+    "nome": "creativita",
+    "slug": "creativita"
+  },
+  {
+    "nome": "lingue-studio",
+    "slug": "lingue-studio"
+  },
+  {
+    "nome": "sviluppo-personale",
+    "slug": "sviluppo-personale"
+  },
+  {
+    "nome": "finanza",
+    "slug": "finanza"
+  },
+  {
+    "nome": "salute",
+    "slug": "salute"
+  },
+  {
+    "nome": "business",
+    "slug": "business"
+  },
+  {
+    "nome": "crescita-personale",
+    "slug": "crescita-personale"
+  },
+  {
+    "nome": "crescita-personale-motivazione-e-successo",
+    "slug": "crescita-personale-motivazione-e-successo"
+  },
+  {
+    "nome": "crescita-personale-gestione-dello-stress",
+    "slug": "crescita-personale-gestione-dello-stress"
+  },
+  {
+    "nome": "crescita-personale-autostima-e-fiducia-in-se-stessi",
+    "slug": "crescita-personale-autostima-e-fiducia-in-se-stessi"
+  },
+  {
+    "nome": "crescita-personale-produttivita-e-gestione-del-tempo",
+    "slug": "crescita-personale-produttivita-e-gestione-del-tempo"
+  },
+  {
+    "nome": "crescita-personale-abitudini-e-routine",
+    "slug": "crescita-personale-abitudini-e-routine"
+  },
+  {
+    "nome": "crescita-personale-mindfulness-e-meditazione",
+    "slug": "crescita-personale-mindfulness-e-meditazione"
+  },
+  {
+    "nome": "crescita-personale-comunicazione-efficace",
+    "slug": "crescita-personale-comunicazione-efficace"
+  },
+  {
+    "nome": "crescita-personale-leadership-e-carriera",
+    "slug": "crescita-personale-leadership-e-carriera"
+  },
+  {
+    "nome": "computer-tecnologia",
+    "slug": "computer-tecnologia"
+  },
+  {
+    "nome": "computer-tecnologia-programmazione",
+    "slug": "computer-tecnologia-programmazione"
+  },
+  {
+    "nome": "computer-tecnologia-internet-e-social-media",
+    "slug": "computer-tecnologia-internet-e-social-media"
+  },
+  {
+    "nome": "computer-tecnologia-sicurezza-informatica",
+    "slug": "computer-tecnologia-sicurezza-informatica"
+  },
+  {
+    "nome": "computer-tecnologia-web-design-e-seo",
+    "slug": "computer-tecnologia-web-design-e-seo"
+  },
+  {
+    "nome": "computer-tecnologia-database-e-big-data",
+    "slug": "computer-tecnologia-database-e-big-data"
+  },
+  {
+    "nome": "computer-tecnologia-sistemi-operativi",
+    "slug": "computer-tecnologia-sistemi-operativi"
+  },
+  {
+    "nome": "computer-tecnologia-software-e-applicazioni",
+    "slug": "computer-tecnologia-software-e-applicazioni"
+  },
+  {
+    "nome": "economia-affari-finanza",
+    "slug": "economia-affari-finanza"
+  },
+  {
+    "nome": "economia-affari-finanza-contabilita",
+    "slug": "economia-affari-finanza-contabilita"
+  },
+  {
+    "nome": "economia-affari-finanza-economia",
+    "slug": "economia-affari-finanza-economia"
+  },
+  {
+    "nome": "economia-affari-finanza-finanza-e-investimenti",
+    "slug": "economia-affari-finanza-finanza-e-investimenti"
+  },
+  {
+    "nome": "economia-affari-finanza-imprenditorialita-e-piccole-imprese",
+    "slug": "economia-affari-finanza-imprenditorialita-e-piccole-imprese"
+  },
+  {
+    "nome": "economia-affari-finanza-industrie-e-professioni",
+    "slug": "economia-affari-finanza-industrie-e-professioni"
+  },
+  {
+    "nome": "economia-affari-finanza-management-e-capacita-dirigenziali",
+    "slug": "economia-affari-finanza-management-e-capacita-dirigenziali"
+  },
+  {
+    "nome": "economia-affari-finanza-marketing-e-vendite",
+    "slug": "economia-affari-finanza-marketing-e-vendite"
+  },
+  {
+    "nome": "economia-affari-finanza-pianificazione-delle-mansioni-professionali-e-ricerca-d-impiego",
+    "slug": "economia-affari-finanza-pianificazione-delle-mansioni-professionali-e-ricerca-d-impiego"
+  },
+  {
+    "nome": "economia-affari-finanza-risorse-umane-e-gestione-del-personale",
+    "slug": "economia-affari-finanza-risorse-umane-e-gestione-del-personale"
+  },
+  {
+    "nome": "economia-affari-finanza-testi-di-consultazione-commerciali",
+    "slug": "economia-affari-finanza-testi-di-consultazione-commerciali"
+  },
+  {
+    "nome": "economia-affari-finanza-lavoro-autonomo-e-freelance",
+    "slug": "economia-affari-finanza-lavoro-autonomo-e-freelance"
+  },
+  {
+    "nome": "economia-affari-finanza-e-commerce-e-vendite-online",
+    "slug": "economia-affari-finanza-e-commerce-e-vendite-online"
+  },
+  {
+    "nome": "salute-fitness-dieta",
+    "slug": "salute-fitness-dieta"
+  },
+  {
+    "nome": "salute-fitness-dieta-allenamento-e-fitness",
+    "slug": "salute-fitness-dieta-allenamento-e-fitness"
+  },
+  {
+    "nome": "salute-fitness-dieta-dieta-e-nutrizione",
+    "slug": "salute-fitness-dieta-dieta-e-nutrizione"
+  },
+  {
+    "nome": "salute-fitness-dieta-sonno-e-riposo",
+    "slug": "salute-fitness-dieta-sonno-e-riposo"
+  },
+  {
+    "nome": "salute-fitness-dieta-benessere-mentale",
+    "slug": "salute-fitness-dieta-benessere-mentale"
+  },
+  {
+    "nome": "salute-fitness-dieta-yoga-e-discipline-orientali",
+    "slug": "salute-fitness-dieta-yoga-e-discipline-orientali"
+  },
+  {
+    "nome": "salute-fitness-dieta-medicina-naturale",
+    "slug": "salute-fitness-dieta-medicina-naturale"
+  },
+  {
+    "nome": "istruzione-studio",
+    "slug": "istruzione-studio"
+  },
+  {
+    "nome": "istruzione-studio-metodo-di-studio",
+    "slug": "istruzione-studio-metodo-di-studio"
+  },
+  {
+    "nome": "istruzione-studio-esami-e-concorsi",
+    "slug": "istruzione-studio-esami-e-concorsi"
+  },
+  {
+    "nome": "istruzione-studio-insegnare-e-formare",
+    "slug": "istruzione-studio-insegnare-e-formare"
+  },
+  {
+    "nome": "istruzione-studio-lingue-e-consultazione",
+    "slug": "istruzione-studio-lingue-e-consultazione"
+  },
+  {
+    "nome": "istruzione-studio-strumenti-scolastici",
+    "slug": "istruzione-studio-strumenti-scolastici"
+  },
+  {
+    "nome": "arte-design-fotografia",
+    "slug": "arte-design-fotografia"
+  },
+  {
+    "nome": "arte-design-fotografia-fotografia",
+    "slug": "arte-design-fotografia-fotografia"
+  },
+  {
+    "nome": "arte-design-fotografia-grafica-e-design",
+    "slug": "arte-design-fotografia-grafica-e-design"
+  },
+  {
+    "nome": "arte-design-fotografia-architettura",
+    "slug": "arte-design-fotografia-architettura"
+  },
+  {
+    "nome": "arte-design-fotografia-pittura-e-disegno",
+    "slug": "arte-design-fotografia-pittura-e-disegno"
+  },
+  {
+    "nome": "arte-design-fotografia-musica",
+    "slug": "arte-design-fotografia-musica"
+  },
+  {
+    "nome": "arte-design-fotografia-cinema-e-spettacolo",
+    "slug": "arte-design-fotografia-cinema-e-spettacolo"
+  },
+  {
+    "nome": "cucina-cibi-vini",
+    "slug": "cucina-cibi-vini"
+  },
+  {
+    "nome": "cucina-cibi-vini-cucina-italiana",
+    "slug": "cucina-cibi-vini-cucina-italiana"
+  },
+  {
+    "nome": "cucina-cibi-vini-dolci-e-dessert",
+    "slug": "cucina-cibi-vini-dolci-e-dessert"
+  },
+  {
+    "nome": "cucina-cibi-vini-cucina-vegetariana-e-vegana",
+    "slug": "cucina-cibi-vini-cucina-vegetariana-e-vegana"
+  },
+  {
+    "nome": "cucina-cibi-vini-cucina-veloce-e-quotidiana",
+    "slug": "cucina-cibi-vini-cucina-veloce-e-quotidiana"
+  },
+  {
+    "nome": "cucina-cibi-vini-vini-e-bevande",
+    "slug": "cucina-cibi-vini-vini-e-bevande"
+  },
+  {
+    "nome": "hobby-casa-tempo-libero",
+    "slug": "hobby-casa-tempo-libero"
+  },
+  {
+    "nome": "hobby-casa-tempo-libero-fai-da-te",
+    "slug": "hobby-casa-tempo-libero-fai-da-te"
+  },
+  {
+    "nome": "hobby-casa-tempo-libero-giardinaggio",
+    "slug": "hobby-casa-tempo-libero-giardinaggio"
+  },
+  {
+    "nome": "hobby-casa-tempo-libero-casa-e-arredamento",
+    "slug": "hobby-casa-tempo-libero-casa-e-arredamento"
+  },
+  {
+    "nome": "hobby-casa-tempo-libero-artigianato-e-lavoretti-creativi",
+    "slug": "hobby-casa-tempo-libero-artigianato-e-lavoretti-creativi"
+  },
+  {
+    "nome": "hobby-casa-tempo-libero-animali-domestici",
+    "slug": "hobby-casa-tempo-libero-animali-domestici"
+  },
+  {
+    "nome": "sport-outdoor",
+    "slug": "sport-outdoor"
+  },
+  {
+    "nome": "sport-outdoor-corsa-e-atletica",
+    "slug": "sport-outdoor-corsa-e-atletica"
+  },
+  {
+    "nome": "sport-outdoor-ciclismo",
+    "slug": "sport-outdoor-ciclismo"
+  },
+  {
+    "nome": "sport-outdoor-montagna-e-trekking",
+    "slug": "sport-outdoor-montagna-e-trekking"
+  },
+  {
+    "nome": "sport-outdoor-calcio",
+    "slug": "sport-outdoor-calcio"
+  },
+  {
+    "nome": "sport-outdoor-sport-acquatici",
+    "slug": "sport-outdoor-sport-acquatici"
+  },
+  {
+    "nome": "diritto-fisco",
+    "slug": "diritto-fisco"
+  },
+  {
+    "nome": "diritto-fisco-diritto-civile",
+    "slug": "diritto-fisco-diritto-civile"
+  },
+  {
+    "nome": "diritto-fisco-diritto-del-lavoro",
+    "slug": "diritto-fisco-diritto-del-lavoro"
+  },
+  {
+    "nome": "diritto-fisco-fisco-e-tributi",
+    "slug": "diritto-fisco-fisco-e-tributi"
+  },
+  {
+    "nome": "diritto-fisco-contratti-e-societa",
+    "slug": "diritto-fisco-contratti-e-societa"
+  },
+  {
+    "nome": "diritto-fisco-privacy-e-gdpr",
+    "slug": "diritto-fisco-privacy-e-gdpr"
+  },
+  {
+    "nome": "saggistica-varia",
+    "slug": "saggistica-varia"
+  },
+  {
+    "nome": "saggistica-varia-famiglia-e-relazioni",
+    "slug": "saggistica-varia-famiglia-e-relazioni"
+  },
+  {
+    "nome": "saggistica-varia-religione-e-spiritualita",
+    "slug": "saggistica-varia-religione-e-spiritualita"
+  },
+  {
+    "nome": "saggistica-varia-scienza-e-natura",
+    "slug": "saggistica-varia-scienza-e-natura"
+  },
+  {
+    "nome": "saggistica-varia-societa",
+    "slug": "saggistica-varia-societa"
+  },
+  {
+    "nome": "saggistica-varia-spettacolo",
+    "slug": "saggistica-varia-spettacolo"
+  },
+  {
+    "nome": "saggistica-varia-storia",
+    "slug": "saggistica-varia-storia"
+  },
+  {
+    "nome": "saggistica-varia-viaggi",
+    "slug": "saggistica-varia-viaggi"
+  },
+  {
+    "nome": "biografie-memorie",
+    "slug": "biografie-memorie"
+  },
+  {
+    "nome": "biografie-memorie-artisti-architetti-e-fotografi",
+    "slug": "biografie-memorie-artisti-architetti-e-fotografi"
+  },
+  {
+    "nome": "biografie-memorie-case-reali",
+    "slug": "biografie-memorie-case-reali"
+  },
+  {
+    "nome": "biografie-memorie-compositori-e-musicisti",
+    "slug": "biografie-memorie-compositori-e-musicisti"
+  },
+  {
+    "nome": "biografie-memorie-consultazione",
+    "slug": "biografie-memorie-consultazione"
+  },
+  {
+    "nome": "biografie-memorie-filosofi",
+    "slug": "biografie-memorie-filosofi"
+  },
+  {
+    "nome": "biografie-memorie-letteratura",
+    "slug": "biografie-memorie-letteratura"
+  },
+  {
+    "nome": "biografie-memorie-politica",
+    "slug": "biografie-memorie-politica"
+  },
+  {
+    "nome": "biografie-memorie-religione",
+    "slug": "biografie-memorie-religione"
+  },
+  {
+    "nome": "biografie-memorie-showbusiness",
+    "slug": "biografie-memorie-showbusiness"
+  },
+  {
+    "nome": "biografie-memorie-spettacolo",
+    "slug": "biografie-memorie-spettacolo"
+  },
+  {
+    "nome": "biografie-memorie-sport",
+    "slug": "biografie-memorie-sport"
+  },
+  {
+    "nome": "biografie-memorie-storici",
+    "slug": "biografie-memorie-storici"
+  },
+  {
+    "nome": "narrativa-letteratura",
+    "slug": "narrativa-letteratura"
+  },
+  {
+    "nome": "narrativa-letteratura-antologie",
+    "slug": "narrativa-letteratura-antologie"
+  },
+  {
+    "nome": "narrativa-letteratura-azione",
+    "slug": "narrativa-letteratura-azione"
+  },
+  {
+    "nome": "narrativa-letteratura-classici",
+    "slug": "narrativa-letteratura-classici"
+  },
+  {
+    "nome": "narrativa-letteratura-critica-e-teoria-della-letteratura",
+    "slug": "narrativa-letteratura-critica-e-teoria-della-letteratura"
+  },
+  {
+    "nome": "narrativa-letteratura-eredita-culturale",
+    "slug": "narrativa-letteratura-eredita-culturale"
+  },
+  {
+    "nome": "narrativa-letteratura-femminili-contemporanei",
+    "slug": "narrativa-letteratura-femminili-contemporanei"
+  },
+  {
+    "nome": "narrativa-letteratura-lgbt",
+    "slug": "narrativa-letteratura-lgbt"
+  },
+  {
+    "nome": "narrativa-letteratura-letteratura",
+    "slug": "narrativa-letteratura-letteratura"
+  },
+  {
+    "nome": "narrativa-letteratura-letteratura-afroamericana",
+    "slug": "narrativa-letteratura-letteratura-afroamericana"
+  },
+  {
+    "nome": "narrativa-letteratura-militare",
+    "slug": "narrativa-letteratura-militare"
+  },
+  {
+    "nome": "narrativa-letteratura-narrativa-d-intrattenimento",
+    "slug": "narrativa-letteratura-narrativa-d-intrattenimento"
+  },
+  {
+    "nome": "narrativa-letteratura-nativi-americani-e-aborigeni",
+    "slug": "narrativa-letteratura-nativi-americani-e-aborigeni"
+  },
+  {
+    "nome": "narrativa-letteratura-orrore",
+    "slug": "narrativa-letteratura-orrore"
+  },
+  {
+    "nome": "narrativa-letteratura-poesia",
+    "slug": "narrativa-letteratura-poesia"
+  },
+  {
+    "nome": "narrativa-letteratura-poliziesco",
+    "slug": "narrativa-letteratura-poliziesco"
+  },
+  {
+    "nome": "narrativa-letteratura-psicologia",
+    "slug": "narrativa-letteratura-psicologia"
+  },
+  {
+    "nome": "narrativa-letteratura-racconti",
+    "slug": "narrativa-letteratura-racconti"
+  },
+  {
+    "nome": "narrativa-letteratura-religione",
+    "slug": "narrativa-letteratura-religione"
+  },
+  {
+    "nome": "narrativa-letteratura-romanzi-di-formazione",
+    "slug": "narrativa-letteratura-romanzi-di-formazione"
+  },
+  {
+    "nome": "narrativa-letteratura-saggi-ed-epistolari",
+    "slug": "narrativa-letteratura-saggi-ed-epistolari"
+  },
+  {
+    "nome": "narrativa-letteratura-saghe",
+    "slug": "narrativa-letteratura-saghe"
+  },
+  {
+    "nome": "narrativa-letteratura-storici",
+    "slug": "narrativa-letteratura-storici"
+  },
+  {
+    "nome": "narrativa-letteratura-teatro",
+    "slug": "narrativa-letteratura-teatro"
+  },
+  {
+    "nome": "narrativa-letteratura-thriller",
+    "slug": "narrativa-letteratura-thriller"
+  },
+  {
+    "nome": "narrativa-letteratura-tratti-da-film-o-serie-televisive",
+    "slug": "narrativa-letteratura-tratti-da-film-o-serie-televisive"
+  },
+  {
+    "nome": "narrativa-letteratura-umorismo",
+    "slug": "narrativa-letteratura-umorismo"
+  },
+  {
+    "nome": "narrativa-letteratura-vita-familiare",
+    "slug": "narrativa-letteratura-vita-familiare"
+  },
+  {
+    "nome": "narrativa-letteratura-western",
+    "slug": "narrativa-letteratura-western"
+  },
+  {
+    "nome": "gialli-thriller-suspense",
+    "slug": "gialli-thriller-suspense"
+  },
+  {
+    "nome": "gialli-thriller-suspense-donne-detective",
+    "slug": "gialli-thriller-suspense-donne-detective"
+  },
+  {
+    "nome": "gialli-thriller-suspense-gialli-storici",
+    "slug": "gialli-thriller-suspense-gialli-storici"
+  },
+  {
+    "nome": "gialli-thriller-suspense-giustizia",
+    "slug": "gialli-thriller-suspense-giustizia"
+  },
+  {
+    "nome": "gialli-thriller-suspense-inglesi-tradizionali",
+    "slug": "gialli-thriller-suspense-inglesi-tradizionali"
+  },
+  {
+    "nome": "gialli-thriller-suspense-internazionale",
+    "slug": "gialli-thriller-suspense-internazionale"
+  },
+  {
+    "nome": "gialli-thriller-suspense-polizieschi",
+    "slug": "gialli-thriller-suspense-polizieschi"
+  },
+  {
+    "nome": "gialli-thriller-suspense-polizieschi-leggeri",
+    "slug": "gialli-thriller-suspense-polizieschi-leggeri"
+  },
+  {
+    "nome": "gialli-thriller-suspense-romanzi-neri",
+    "slug": "gialli-thriller-suspense-romanzi-neri"
+  },
+  {
+    "nome": "gialli-thriller-suspense-thriller",
+    "slug": "gialli-thriller-suspense-thriller"
+  },
+  {
+    "nome": "romanzi-d-amore",
+    "slug": "romanzi-d-amore"
+  },
+  {
+    "nome": "romanzi-d-amore-amore-adolescenziale",
+    "slug": "romanzi-d-amore-amore-adolescenziale"
+  },
+  {
+    "nome": "romanzi-d-amore-contemporanei",
+    "slug": "romanzi-d-amore-contemporanei"
+  },
+  {
+    "nome": "romanzi-d-amore-erotismo",
+    "slug": "romanzi-d-amore-erotismo"
+  },
+  {
+    "nome": "romanzi-d-amore-fantascienza-romantica",
+    "slug": "romanzi-d-amore-fantascienza-romantica"
+  },
+  {
+    "nome": "romanzi-d-amore-lgbt",
+    "slug": "romanzi-d-amore-lgbt"
+  },
+  {
+    "nome": "romanzi-d-amore-new-adult",
+    "slug": "romanzi-d-amore-new-adult"
+  },
+  {
+    "nome": "romanzi-d-amore-paranormal-romance",
+    "slug": "romanzi-d-amore-paranormal-romance"
+  },
+  {
+    "nome": "romanzi-d-amore-per-adulti",
+    "slug": "romanzi-d-amore-per-adulti"
+  },
+  {
+    "nome": "romanzi-d-amore-romanzi-cristiani",
+    "slug": "romanzi-d-amore-romanzi-cristiani"
+  },
+  {
+    "nome": "romanzi-d-amore-sport",
+    "slug": "romanzi-d-amore-sport"
+  },
+  {
+    "nome": "romanzi-d-amore-storici",
+    "slug": "romanzi-d-amore-storici"
+  },
+  {
+    "nome": "romanzi-d-amore-suspense-romantica",
+    "slug": "romanzi-d-amore-suspense-romantica"
+  },
+  {
+    "nome": "romanzi-d-amore-yaoi",
+    "slug": "romanzi-d-amore-yaoi"
+  },
+  {
+    "nome": "fantascienza-fantasy",
+    "slug": "fantascienza-fantasy"
+  },
+  {
+    "nome": "fantascienza-fantasy-ad-alto-contenuto-tecnologico",
+    "slug": "fantascienza-fantasy-ad-alto-contenuto-tecnologico"
+  },
+  {
+    "nome": "fantascienza-fantasy-fantascienza",
+    "slug": "fantascienza-fantasy-fantascienza"
+  },
+  {
+    "nome": "fantascienza-fantasy-fantasy",
+    "slug": "fantascienza-fantasy-fantasy"
+  },
+  {
+    "nome": "fantascienza-fantasy-orrore",
+    "slug": "fantascienza-fantasy-orrore"
+  },
+  {
+    "nome": "fantascienza-fantasy-spaziale",
+    "slug": "fantascienza-fantasy-spaziale"
+  },
+  {
+    "nome": "fantascienza-fantasy-steampunk",
+    "slug": "fantascienza-fantasy-steampunk"
+  },
+  {
+    "nome": "fantascienza-fantasy-storici",
+    "slug": "fantascienza-fantasy-storici"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga",
+    "slug": "fumetti-graphic-novel-manga"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-film",
+    "slug": "fumetti-graphic-novel-manga-film"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-orrore",
+    "slug": "fumetti-graphic-novel-manga-orrore"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-antologie",
+    "slug": "fumetti-graphic-novel-manga-antologie"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-donne-contemporanee",
+    "slug": "fumetti-graphic-novel-manga-donne-contemporanee"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-erotismo",
+    "slug": "fumetti-graphic-novel-manga-erotismo"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-fantascienza",
+    "slug": "fumetti-graphic-novel-manga-fantascienza"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-fantasy",
+    "slug": "fumetti-graphic-novel-manga-fantasy"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-gay-e-lesbiche",
+    "slug": "fumetti-graphic-novel-manga-gay-e-lesbiche"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-gialli-e-thriller",
+    "slug": "fumetti-graphic-novel-manga-gialli-e-thriller"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-letterario",
+    "slug": "fumetti-graphic-novel-manga-letterario"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-manga",
+    "slug": "fumetti-graphic-novel-manga-manga"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-narrativa-storica",
+    "slug": "fumetti-graphic-novel-manga-narrativa-storica"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-religione",
+    "slug": "fumetti-graphic-novel-manga-religione"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-romanzi-d-amore",
+    "slug": "fumetti-graphic-novel-manga-romanzi-d-amore"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-saggistica",
+    "slug": "fumetti-graphic-novel-manga-saggistica"
+  },
+  {
+    "nome": "fumetti-graphic-novel-manga-supereroi",
+    "slug": "fumetti-graphic-novel-manga-supereroi"
+  },
+  {
+    "nome": "ragazzi-young-adult",
+    "slug": "ragazzi-young-adult"
+  },
+  {
+    "nome": "ragazzi-young-adult-azione",
+    "slug": "ragazzi-young-adult-azione"
+  },
+  {
+    "nome": "ragazzi-young-adult-distopia",
+    "slug": "ragazzi-young-adult-distopia"
+  },
+  {
+    "nome": "ragazzi-young-adult-fantascienza",
+    "slug": "ragazzi-young-adult-fantascienza"
+  },
+  {
+    "nome": "ragazzi-young-adult-fantasia",
+    "slug": "ragazzi-young-adult-fantasia"
+  },
+  {
+    "nome": "ragazzi-young-adult-fumetti-graphic-novel-e-manga",
+    "slug": "ragazzi-young-adult-fumetti-graphic-novel-e-manga"
+  },
+  {
+    "nome": "ragazzi-young-adult-orrore",
+    "slug": "ragazzi-young-adult-orrore"
+  },
+  {
+    "nome": "ragazzi-young-adult-paranormale",
+    "slug": "ragazzi-young-adult-paranormale"
+  },
+  {
+    "nome": "ragazzi-young-adult-religione",
+    "slug": "ragazzi-young-adult-religione"
+  },
+  {
+    "nome": "ragazzi-young-adult-romanzi-d-amore",
+    "slug": "ragazzi-young-adult-romanzi-d-amore"
+  },
+  {
+    "nome": "ragazzi-young-adult-scolastici",
+    "slug": "ragazzi-young-adult-scolastici"
+  },
+  {
+    "nome": "ragazzi-young-adult-societa",
+    "slug": "ragazzi-young-adult-societa"
+  },
+  {
+    "nome": "ragazzi-young-adult-sport",
+    "slug": "ragazzi-young-adult-sport"
+  },
+  {
+    "nome": "ragazzi-young-adult-storici",
+    "slug": "ragazzi-young-adult-storici"
+  },
+  {
+    "nome": "per-bambini",
+    "slug": "per-bambini"
+  },
+  {
+    "nome": "per-bambini-abc-123",
+    "slug": "per-bambini-abc-123"
+  },
+  {
+    "nome": "per-bambini-animali",
+    "slug": "per-bambini-animali"
+  },
+  {
+    "nome": "per-bambini-bello-e-interessante",
+    "slug": "per-bambini-bello-e-interessante"
+  },
+  {
+    "nome": "per-bambini-creativita",
+    "slug": "per-bambini-creativita"
+  },
+  {
+    "nome": "per-bambini-due-ruote-quattro-ruote-nessuna-ruota",
+    "slug": "per-bambini-due-ruote-quattro-ruote-nessuna-ruota"
+  },
+  {
+    "nome": "per-bambini-fatti-una-risata",
+    "slug": "per-bambini-fatti-una-risata"
+  },
+  {
+    "nome": "per-bambini-francese-spagnolo-e-altre-lingue",
+    "slug": "per-bambini-francese-spagnolo-e-altre-lingue"
+  },
+  {
+    "nome": "per-bambini-fumetti-graphic-novel-manga",
+    "slug": "per-bambini-fumetti-graphic-novel-manga"
+  },
+  {
+    "nome": "per-bambini-la-mia-famiglia-i-miei-sentimenti-i-miei-amici",
+    "slug": "per-bambini-la-mia-famiglia-i-miei-sentimenti-i-miei-amici"
+  },
+  {
+    "nome": "per-bambini-luoghi-e-persone",
+    "slug": "per-bambini-luoghi-e-persone"
+  },
+  {
+    "nome": "per-bambini-narrativa",
+    "slug": "per-bambini-narrativa"
+  },
+  {
+    "nome": "per-bambini-natura",
+    "slug": "per-bambini-natura"
+  },
+  {
+    "nome": "per-bambini-read-along",
+    "slug": "per-bambini-read-along"
+  },
+  {
+    "nome": "per-bambini-religione",
+    "slug": "per-bambini-religione"
+  },
+  {
+    "nome": "per-bambini-sport-e-tempo-libero",
+    "slug": "per-bambini-sport-e-tempo-libero"
+  },
+  {
+    "nome": "per-bambini-tecnologia",
+    "slug": "per-bambini-tecnologia"
+  }
+]

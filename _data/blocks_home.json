@@ -1,0 +1,26 @@
+[
+  {
+    "id": "hero",
+    "nome": "Hero",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"ent-hero\"><div class=\"gc-wrap gc-hero-in\"><div><p class=\"gc-eyebrow\">Guide pratiche in PDF</p><h1 class=\"gc-h1\">Guide pratiche da leggere in un'ora, <em>da applicare subito.</em></h1><p class=\"gc-lead\">Ebook in italiano su temi concreti: AI al lavoro, finanza personale, produttività, benessere e business. Ogni guida va dritta al punto e dice cosa fare, passo dopo passo.</p><div class=\"gc-act\"><a class=\"gc-btn gc-btn-a\" href=\"__BASEURL__/negozio/\">Vai al catalogo</a><a class=\"gc-btn gc-btn-o\" href=\"__BASEURL__/servizi/\">Come funziona</a></div></div><div class=\"ent-cycle\"><div><b>Scegli</b><span>Sfoglia le categorie e leggi la descrizione dell'ebook.</span></div><div><b>Acquista</b><span>Aggiungi al carrello e completa l'ordine.</span></div><div><b>Scarica</b><span>Ricevi il PDF e leggilo su telefono, tablet o computer.</span></div><div><b>Applica</b><span>Ogni guida finisce con cose concrete da fare.</span></div></div></div></section></div>"
+  },
+  {
+    "id": "categorie",
+    "nome": "Catalogo",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"categorie\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Catalogo</p><h2 class=\"gc-h2\">Scegli il tema che ti serve</h2><p class=\"gc-lead\">Sette categorie, ognuna con ebook di ingresso e guide più complete.</p><div class=\"gc-plat ent-4\"><div class=\"gc-pl ent-pl\"><b>AI e prompt</b><p>Prompt pronti e metodi per usare l'AI nel lavoro.</p><p><a class=\"gc-link\" href=\"__BASEURL__/negozio/categoria/ai-prompt/\">Vedi gli ebook</a></p></div><div class=\"gc-pl ent-pl\"><b>Creatività</b><p>Scrittura, fotografia e grafica, anche partendo da zero.</p><p><a class=\"gc-link\" href=\"__BASEURL__/negozio/categoria/creativita/\">Vedi gli ebook</a></p></div><div class=\"gc-pl ent-pl\"><b>Lingue e studio</b><p>Inglese per il lavoro e metodi per studiare meglio.</p><p><a class=\"gc-link\" href=\"__BASEURL__/negozio/categoria/lingue-studio/\">Vedi gli ebook</a></p></div><div class=\"gc-pl ent-pl\"><b>Sviluppo personale</b><p>Abitudini, produttività e organizzazione della giornata.</p><p><a class=\"gc-link\" href=\"__BASEURL__/negozio/categoria/sviluppo-personale/\">Vedi gli ebook</a></p></div><div class=\"gc-pl ent-pl\"><b>Finanza personale</b><p>Bilancio familiare, ETF e partita IVA forfettaria.</p><p><a class=\"gc-link\" href=\"__BASEURL__/negozio/categoria/finanza/\">Vedi gli ebook</a></p></div><div class=\"gc-pl ent-pl\"><b>Salute e benessere</b><p>Sonno, allenamento a casa e meditazione.</p><p><a class=\"gc-link\" href=\"__BASEURL__/negozio/categoria/salute/\">Vedi gli ebook</a></p></div><div class=\"gc-pl ent-pl\"><b>Business</b><p>E-commerce, freelance e SEO per piccoli siti.</p><p><a class=\"gc-link\" href=\"__BASEURL__/negozio/categoria/business/\">Vedi gli ebook</a></p></div></div></div></section></div>"
+  },
+  {
+    "id": "metodo",
+    "nome": "Come funziona",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"metodo\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Come funziona</p><h2 class=\"gc-h2\">Dalla scelta alla lettura</h2><div class=\"gc-plat ent-4\"><div class=\"gc-pl\"><span class=\"n\">01</span><b>Scegli</b><p>Sfoglia le categorie e leggi la descrizione dell'ebook.</p></div><div class=\"gc-pl\"><span class=\"n\">02</span><b>Acquista</b><p>Aggiungi al carrello e completa l'ordine.</p></div><div class=\"gc-pl\"><span class=\"n\">03</span><b>Scarica</b><p>Ricevi il PDF e leggilo su telefono, tablet o computer.</p></div><div class=\"gc-pl\"><span class=\"n\">04</span><b>Applica</b><p>Ogni guida finisce con cose concrete da fare.</p></div></div></div></section></div>"
+  },
+  {
+    "id": "contatti",
+    "nome": "Contatti",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-dark\" id=\"contatti\"><div class=\"gc-wrap\"><h2 class=\"gc-h2\">Hai una domanda?</h2><p class=\"gc-lead\">Scrivici prima di acquistare: ti rispondiamo volentieri.</p><a class=\"gc-btn\" href=\"__BASEURL__/contatti/\">Contattaci</a></div></section></div>"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "chi",
+    "nome": "About us",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"chi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">About us</p><h2 class=\"gc-h2\">Practical guides, written to be used</h2><p class=\"gc-lead\">Casa Editrice Ebook publishes Italian-language ebooks on everyday topics: work, money, study, wellbeing. No useless theory: each guide explains how to do one specific thing.</p><p>We publish in PDF, so it reads anywhere and stays yours. Every title has a clear description of its contents before you buy.</p></div></section></div>"
+  },
+  {
+    "id": "principi",
+    "nome": "Principles",
+    "enabled": true,
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"principi\"><div class=\"gc-wrap\"><h2 class=\"gc-h2\">How we behave</h2><div class=\"gc-plat\"><div class=\"gc-pl\"><span class=\"n\">1</span><b>Clarity</b><p>We write simply and tell you up front what is in each ebook.</p></div><div class=\"gc-pl\"><span class=\"n\">2</span><b>Usefulness</b><p>Every guide leads to something to do, not just to read.</p></div><div class=\"gc-pl\"><span class=\"n\">3</span><b>Honesty</b><p>No promises of easy money: we explain what works and how much effort it takes.</p></div></div></div></section></div>"
+  }
+]
