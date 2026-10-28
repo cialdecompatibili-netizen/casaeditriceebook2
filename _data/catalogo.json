@@ -2,976 +2,596 @@
   "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
   "categorie": [
     {
-      "nome": "Crescita personale",
-      "id": "crescita-personale",
-      "icona": "🌱",
+      "nome": "Gialli, thriller e noir",
+      "id": "gialli-thriller-e-noir",
+      "icona": "🕵",
       "tr": {
         "en": {
-          "nome": "Self-Improvement"
+          "nome": "Crime, Thrillers & Noir"
         }
       }
     },
     {
-      "nome": "Sviluppo personale",
-      "id": "sviluppo-personale",
-      "icona": "🌱",
-      "tr": {
-        "en": {
-          "nome": "Personal Growth"
-        }
-      },
-      "genitore": "crescita-personale"
-    },
-    {
-      "nome": "Motivazione e successo",
-      "id": "crescita-personale-motivazione-e-successo",
-      "icona": "",
-      "genitore": "crescita-personale",
-      "tr": {
-        "en": {
-          "nome": "Motivation & Success"
-        }
-      }
-    },
-    {
-      "nome": "Gestione dello stress",
-      "id": "crescita-personale-gestione-dello-stress",
-      "icona": "",
-      "genitore": "crescita-personale",
-      "tr": {
-        "en": {
-          "nome": "Stress Management"
-        }
-      }
-    },
-    {
-      "nome": "Autostima e fiducia in se stessi",
-      "id": "crescita-personale-autostima-e-fiducia-in-se-stessi",
-      "icona": "",
-      "genitore": "crescita-personale",
-      "tr": {
-        "en": {
-          "nome": "Self-Esteem & Confidence"
-        }
-      }
-    },
-    {
-      "nome": "Produttivit\u00e0 e gestione del tempo",
-      "id": "crescita-personale-produttivita-e-gestione-del-tempo",
-      "icona": "",
-      "genitore": "crescita-personale",
-      "tr": {
-        "en": {
-          "nome": "Productivity & Time Management"
-        }
-      }
-    },
-    {
-      "nome": "Abitudini e routine",
-      "id": "crescita-personale-abitudini-e-routine",
-      "icona": "",
-      "genitore": "crescita-personale",
-      "tr": {
-        "en": {
-          "nome": "Habits & Routines"
-        }
-      }
-    },
-    {
-      "nome": "Mindfulness e meditazione",
-      "id": "crescita-personale-mindfulness-e-meditazione",
-      "icona": "",
-      "genitore": "crescita-personale",
-      "tr": {
-        "en": {
-          "nome": "Mindfulness & Meditation"
-        }
-      }
-    },
-    {
-      "nome": "Comunicazione efficace",
-      "id": "crescita-personale-comunicazione-efficace",
-      "icona": "",
-      "genitore": "crescita-personale",
-      "tr": {
-        "en": {
-          "nome": "Effective Communication"
-        }
-      }
-    },
-    {
-      "nome": "Leadership e carriera",
-      "id": "crescita-personale-leadership-e-carriera",
-      "icona": "",
-      "genitore": "crescita-personale",
-      "tr": {
-        "en": {
-          "nome": "Leadership & Career"
-        }
-      }
-    },
-    {
-      "nome": "Computer e tecnologia",
-      "id": "computer-tecnologia",
-      "icona": "💻",
-      "tr": {
-        "en": {
-          "nome": "Computers & Technology"
-        }
-      }
-    },
-    {
-      "nome": "AI e prompt",
-      "id": "ai-prompt",
-      "icona": "🤖",
-      "tr": {
-        "en": {
-          "nome": "AI & Prompts"
-        }
-      },
-      "genitore": "computer-tecnologia"
-    },
-    {
-      "nome": "Programmazione",
-      "id": "computer-tecnologia-programmazione",
-      "icona": "",
-      "genitore": "computer-tecnologia",
-      "tr": {
-        "en": {
-          "nome": "Programming"
-        }
-      }
-    },
-    {
-      "nome": "Internet e social media",
-      "id": "computer-tecnologia-internet-e-social-media",
-      "icona": "",
-      "genitore": "computer-tecnologia",
-      "tr": {
-        "en": {
-          "nome": "Internet & Social Media"
-        }
-      }
-    },
-    {
-      "nome": "Sicurezza informatica",
-      "id": "computer-tecnologia-sicurezza-informatica",
-      "icona": "",
-      "genitore": "computer-tecnologia",
-      "tr": {
-        "en": {
-          "nome": "Cybersecurity"
-        }
-      }
-    },
-    {
-      "nome": "Web design e SEO",
-      "id": "computer-tecnologia-web-design-e-seo",
-      "icona": "",
-      "genitore": "computer-tecnologia",
-      "tr": {
-        "en": {
-          "nome": "Web Design & SEO"
-        }
-      }
-    },
-    {
-      "nome": "Database e big data",
-      "id": "computer-tecnologia-database-e-big-data",
-      "icona": "",
-      "genitore": "computer-tecnologia",
-      "tr": {
-        "en": {
-          "nome": "Databases & Big Data"
-        }
-      }
-    },
-    {
-      "nome": "Sistemi operativi",
-      "id": "computer-tecnologia-sistemi-operativi",
-      "icona": "",
-      "genitore": "computer-tecnologia",
-      "tr": {
-        "en": {
-          "nome": "Operating Systems"
-        }
-      }
-    },
-    {
-      "nome": "Software e applicazioni",
-      "id": "computer-tecnologia-software-e-applicazioni",
-      "icona": "",
-      "genitore": "computer-tecnologia",
-      "tr": {
-        "en": {
-          "nome": "Software & Apps"
-        }
-      }
-    },
-    {
-      "nome": "Economia, affari e finanza",
-      "id": "economia-affari-finanza",
-      "icona": "💼",
-      "tr": {
-        "en": {
-          "nome": "Business, Economics & Finance"
-        }
-      }
-    },
-    {
-      "nome": "Finanza personale",
-      "id": "finanza",
-      "icona": "💶",
-      "tr": {
-        "en": {
-          "nome": "Personal Finance"
-        }
-      },
-      "genitore": "economia-affari-finanza"
-    },
-    {
-      "nome": "Business",
-      "id": "business",
-      "icona": "💼",
-      "tr": {
-        "en": {
-          "nome": "Business"
-        }
-      },
-      "genitore": "economia-affari-finanza"
-    },
-    {
-      "nome": "Contabilit\u00e0",
-      "id": "economia-affari-finanza-contabilita",
-      "icona": "",
-      "genitore": "economia-affari-finanza",
-      "tr": {
-        "en": {
-          "nome": "Accounting"
-        }
-      }
-    },
-    {
-      "nome": "Economia",
-      "id": "economia-affari-finanza-economia",
-      "icona": "",
-      "genitore": "economia-affari-finanza",
-      "tr": {
-        "en": {
-          "nome": "Economics"
-        }
-      }
-    },
-    {
-      "nome": "Finanza e investimenti",
-      "id": "economia-affari-finanza-finanza-e-investimenti",
-      "icona": "",
-      "genitore": "economia-affari-finanza",
-      "tr": {
-        "en": {
-          "nome": "Finance & Investing"
-        }
-      }
-    },
-    {
-      "nome": "Imprenditorialit\u00e0 e piccole imprese",
-      "id": "economia-affari-finanza-imprenditorialita-e-piccole-imprese",
-      "icona": "",
-      "genitore": "economia-affari-finanza",
-      "tr": {
-        "en": {
-          "nome": "Entrepreneurship & Small Business"
-        }
-      }
-    },
-    {
-      "nome": "Industrie e professioni",
-      "id": "economia-affari-finanza-industrie-e-professioni",
-      "icona": "",
-      "genitore": "economia-affari-finanza",
-      "tr": {
-        "en": {
-          "nome": "Industries & Professions"
-        }
-      }
-    },
-    {
-      "nome": "Management e capacit\u00e0 dirigenziali",
-      "id": "economia-affari-finanza-management-e-capacita-dirigenziali",
-      "icona": "",
-      "genitore": "economia-affari-finanza",
-      "tr": {
-        "en": {
-          "nome": "Management & Leadership Skills"
-        }
-      }
-    },
-    {
-      "nome": "Marketing e vendite",
-      "id": "economia-affari-finanza-marketing-e-vendite",
-      "icona": "",
-      "genitore": "economia-affari-finanza",
-      "tr": {
-        "en": {
-          "nome": "Marketing & Sales"
-        }
-      }
-    },
-    {
-      "nome": "Pianificazione delle mansioni professionali e ricerca d'impiego",
-      "id": "economia-affari-finanza-pianificazione-delle-mansioni-professionali-e-ricerca-d-impiego",
-      "icona": "",
-      "genitore": "economia-affari-finanza",
-      "tr": {
-        "en": {
-          "nome": "Career Planning & Job Search"
-        }
-      }
-    },
-    {
-      "nome": "Risorse umane e gestione del personale",
-      "id": "economia-affari-finanza-risorse-umane-e-gestione-del-personale",
-      "icona": "",
-      "genitore": "economia-affari-finanza",
-      "tr": {
-        "en": {
-          "nome": "Human Resources & Personnel Management"
-        }
-      }
-    },
-    {
-      "nome": "Testi di consultazione commerciali",
-      "id": "economia-affari-finanza-testi-di-consultazione-commerciali",
-      "icona": "",
-      "genitore": "economia-affari-finanza",
-      "tr": {
-        "en": {
-          "nome": "Business Reference"
-        }
-      }
-    },
-    {
-      "nome": "Lavoro autonomo e freelance",
-      "id": "economia-affari-finanza-lavoro-autonomo-e-freelance",
-      "icona": "",
-      "genitore": "economia-affari-finanza",
-      "tr": {
-        "en": {
-          "nome": "Freelancing & Self-Employment"
-        }
-      }
-    },
-    {
-      "nome": "E-commerce e vendite online",
-      "id": "economia-affari-finanza-e-commerce-e-vendite-online",
-      "icona": "",
-      "genitore": "economia-affari-finanza",
-      "tr": {
-        "en": {
-          "nome": "E-commerce & Online Sales"
-        }
-      }
-    },
-    {
-      "nome": "Salute, fitness e dieta",
-      "id": "salute-fitness-dieta",
-      "icona": "🧘",
-      "tr": {
-        "en": {
-          "nome": "Health, Fitness & Dieting"
-        }
-      }
-    },
-    {
-      "nome": "Salute e benessere",
-      "id": "salute",
-      "icona": "🧘",
-      "tr": {
-        "en": {
-          "nome": "Health & Wellness"
-        }
-      },
-      "genitore": "salute-fitness-dieta"
-    },
-    {
-      "nome": "Allenamento e fitness",
-      "id": "salute-fitness-dieta-allenamento-e-fitness",
-      "icona": "",
-      "genitore": "salute-fitness-dieta",
-      "tr": {
-        "en": {
-          "nome": "Workouts & Fitness"
-        }
-      }
-    },
-    {
-      "nome": "Dieta e nutrizione",
-      "id": "salute-fitness-dieta-dieta-e-nutrizione",
-      "icona": "",
-      "genitore": "salute-fitness-dieta",
-      "tr": {
-        "en": {
-          "nome": "Diet & Nutrition"
-        }
-      }
-    },
-    {
-      "nome": "Sonno e riposo",
-      "id": "salute-fitness-dieta-sonno-e-riposo",
-      "icona": "",
-      "genitore": "salute-fitness-dieta",
-      "tr": {
-        "en": {
-          "nome": "Sleep & Rest"
-        }
-      }
-    },
-    {
-      "nome": "Benessere mentale",
-      "id": "salute-fitness-dieta-benessere-mentale",
-      "icona": "",
-      "genitore": "salute-fitness-dieta",
-      "tr": {
-        "en": {
-          "nome": "Mental Wellbeing"
-        }
-      }
-    },
-    {
-      "nome": "Yoga e discipline orientali",
-      "id": "salute-fitness-dieta-yoga-e-discipline-orientali",
-      "icona": "",
-      "genitore": "salute-fitness-dieta",
-      "tr": {
-        "en": {
-          "nome": "Yoga & Eastern Practices"
-        }
-      }
-    },
-    {
-      "nome": "Medicina naturale",
-      "id": "salute-fitness-dieta-medicina-naturale",
+      "nome": "Gialli classici",
+      "id": "gialli-thriller-e-noir-gialli-classici",
       "icona": "",
-      "genitore": "salute-fitness-dieta",
+      "genitore": "gialli-thriller-e-noir",
       "tr": {
         "en": {
-          "nome": "Natural Medicine"
+          "nome": "Classic Mysteries"
         }
       }
     },
     {
-      "nome": "Istruzione e studio",
-      "id": "istruzione-studio",
-      "icona": "📚",
-      "tr": {
-        "en": {
-          "nome": "Education & Study"
-        }
-      }
-    },
-    {
-      "nome": "Lingue e studio",
-      "id": "lingue-studio",
-      "icona": "📚",
-      "tr": {
-        "en": {
-          "nome": "Languages & Study"
-        }
-      },
-      "genitore": "istruzione-studio"
-    },
-    {
-      "nome": "Metodo di studio",
-      "id": "istruzione-studio-metodo-di-studio",
-      "icona": "",
-      "genitore": "istruzione-studio",
-      "tr": {
-        "en": {
-          "nome": "Study Methods"
-        }
-      }
-    },
-    {
-      "nome": "Esami e concorsi",
-      "id": "istruzione-studio-esami-e-concorsi",
-      "icona": "",
-      "genitore": "istruzione-studio",
-      "tr": {
-        "en": {
-          "nome": "Exams & Competitive Tests"
-        }
-      }
-    },
-    {
-      "nome": "Insegnare e formare",
-      "id": "istruzione-studio-insegnare-e-formare",
-      "icona": "",
-      "genitore": "istruzione-studio",
-      "tr": {
-        "en": {
-          "nome": "Teaching & Training"
-        }
-      }
-    },
-    {
-      "nome": "Lingue e consultazione",
-      "id": "istruzione-studio-lingue-e-consultazione",
-      "icona": "",
-      "genitore": "istruzione-studio",
-      "tr": {
-        "en": {
-          "nome": "Languages & Reference"
-        }
-      }
-    },
-    {
-      "nome": "Strumenti scolastici",
-      "id": "istruzione-studio-strumenti-scolastici",
-      "icona": "",
-      "genitore": "istruzione-studio",
-      "tr": {
-        "en": {
-          "nome": "School Tools"
-        }
-      }
-    },
-    {
-      "nome": "Arte, design e fotografia",
-      "id": "arte-design-fotografia",
-      "icona": "🎨",
-      "tr": {
-        "en": {
-          "nome": "Art, Design & Photography"
-        }
-      }
-    },
-    {
-      "nome": "Creativit\u00e0",
-      "id": "creativita",
-      "icona": "🎨",
-      "tr": {
-        "en": {
-          "nome": "Creativity"
-        }
-      },
-      "genitore": "arte-design-fotografia"
-    },
-    {
-      "nome": "Fotografia",
-      "id": "arte-design-fotografia-fotografia",
-      "icona": "",
-      "genitore": "arte-design-fotografia",
-      "tr": {
-        "en": {
-          "nome": "Photography"
-        }
-      }
-    },
-    {
-      "nome": "Grafica e design",
-      "id": "arte-design-fotografia-grafica-e-design",
+      "nome": "Polizieschi e procedurali",
+      "id": "gialli-thriller-e-noir-polizieschi-e-procedurali",
       "icona": "",
-      "genitore": "arte-design-fotografia",
+      "genitore": "gialli-thriller-e-noir",
       "tr": {
         "en": {
-          "nome": "Graphic Design"
+          "nome": "Police Procedurals"
         }
       }
     },
     {
-      "nome": "Architettura",
-      "id": "arte-design-fotografia-architettura",
+      "nome": "Thriller psicologici",
+      "id": "gialli-thriller-e-noir-thriller-psicologici",
       "icona": "",
-      "genitore": "arte-design-fotografia",
+      "genitore": "gialli-thriller-e-noir",
       "tr": {
         "en": {
-          "nome": "Architecture"
+          "nome": "Psychological Thrillers"
         }
       }
     },
     {
-      "nome": "Pittura e disegno",
-      "id": "arte-design-fotografia-pittura-e-disegno",
+      "nome": "Noir e hard-boiled",
+      "id": "gialli-thriller-e-noir-noir-e-hard-boiled",
       "icona": "",
-      "genitore": "arte-design-fotografia",
+      "genitore": "gialli-thriller-e-noir",
       "tr": {
         "en": {
-          "nome": "Painting & Drawing"
+          "nome": "Noir & Hard-Boiled"
         }
       }
     },
     {
-      "nome": "Musica",
-      "id": "arte-design-fotografia-musica",
+      "nome": "Legal thriller",
+      "id": "gialli-thriller-e-noir-legal-thriller",
       "icona": "",
-      "genitore": "arte-design-fotografia",
+      "genitore": "gialli-thriller-e-noir",
       "tr": {
         "en": {
-          "nome": "Music"
+          "nome": "Legal Thrillers"
         }
       }
     },
     {
-      "nome": "Cinema e spettacolo",
-      "id": "arte-design-fotografia-cinema-e-spettacolo",
+      "nome": "Spy story e intrigo internazionale",
+      "id": "gialli-thriller-e-noir-spy-story-e-intrigo-internazionale",
       "icona": "",
-      "genitore": "arte-design-fotografia",
-      "tr": {
-        "en": {
-          "nome": "Film & Performing Arts"
-        }
-      }
-    },
-    {
-      "nome": "Cucina, cibi e vini",
-      "id": "cucina-cibi-vini",
-      "icona": "🍳",
+      "genitore": "gialli-thriller-e-noir",
       "tr": {
         "en": {
-          "nome": "Cooking, Food & Wine"
+          "nome": "Spy & International Intrigue"
         }
       }
     },
     {
-      "nome": "Cucina italiana",
-      "id": "cucina-cibi-vini-cucina-italiana",
+      "nome": "True crime e cold case",
+      "id": "gialli-thriller-e-noir-true-crime-e-cold-case",
       "icona": "",
-      "genitore": "cucina-cibi-vini",
+      "genitore": "gialli-thriller-e-noir",
       "tr": {
         "en": {
-          "nome": "Italian Cooking"
+          "nome": "True Crime & Cold Cases"
         }
       }
     },
     {
-      "nome": "Dolci e dessert",
-      "id": "cucina-cibi-vini-dolci-e-dessert",
+      "nome": "Giallo leggero",
+      "id": "gialli-thriller-e-noir-giallo-leggero",
       "icona": "",
-      "genitore": "cucina-cibi-vini",
+      "genitore": "gialli-thriller-e-noir",
       "tr": {
         "en": {
-          "nome": "Desserts & Baking"
+          "nome": "Cozy Mysteries"
         }
       }
     },
     {
-      "nome": "Cucina vegetariana e vegana",
-      "id": "cucina-cibi-vini-cucina-vegetariana-e-vegana",
-      "icona": "",
-      "genitore": "cucina-cibi-vini",
+      "nome": "Romance e storie d'amore",
+      "id": "romance-e-storie-d-amore",
+      "icona": "❤",
       "tr": {
         "en": {
-          "nome": "Vegetarian & Vegan"
+          "nome": "Romance & Love Stories"
         }
       }
     },
     {
-      "nome": "Cucina veloce e quotidiana",
-      "id": "cucina-cibi-vini-cucina-veloce-e-quotidiana",
+      "nome": "Romance contemporaneo",
+      "id": "romance-e-storie-d-amore-romance-contemporaneo",
       "icona": "",
-      "genitore": "cucina-cibi-vini",
+      "genitore": "romance-e-storie-d-amore",
       "tr": {
         "en": {
-          "nome": "Quick & Everyday Cooking"
+          "nome": "Contemporary Romance"
         }
       }
     },
     {
-      "nome": "Vini e bevande",
-      "id": "cucina-cibi-vini-vini-e-bevande",
+      "nome": "Romance storico",
+      "id": "romance-e-storie-d-amore-romance-storico",
       "icona": "",
-      "genitore": "cucina-cibi-vini",
-      "tr": {
-        "en": {
-          "nome": "Wine & Drinks"
-        }
-      }
-    },
-    {
-      "nome": "Hobby, casa e tempo libero",
-      "id": "hobby-casa-tempo-libero",
-      "icona": "🏡",
+      "genitore": "romance-e-storie-d-amore",
       "tr": {
         "en": {
-          "nome": "Hobbies, Home & Leisure"
+          "nome": "Historical Romance"
         }
       }
     },
     {
-      "nome": "Fai da te",
-      "id": "hobby-casa-tempo-libero-fai-da-te",
+      "nome": "New adult",
+      "id": "romance-e-storie-d-amore-new-adult",
       "icona": "",
-      "genitore": "hobby-casa-tempo-libero",
+      "genitore": "romance-e-storie-d-amore",
       "tr": {
         "en": {
-          "nome": "DIY"
+          "nome": "New Adult"
         }
       }
     },
     {
-      "nome": "Giardinaggio",
-      "id": "hobby-casa-tempo-libero-giardinaggio",
+      "nome": "Paranormal romance",
+      "id": "romance-e-storie-d-amore-paranormal-romance",
       "icona": "",
-      "genitore": "hobby-casa-tempo-libero",
+      "genitore": "romance-e-storie-d-amore",
       "tr": {
         "en": {
-          "nome": "Gardening"
+          "nome": "Paranormal Romance"
         }
       }
     },
     {
-      "nome": "Casa e arredamento",
-      "id": "hobby-casa-tempo-libero-casa-e-arredamento",
+      "nome": "Suspense romantica",
+      "id": "romance-e-storie-d-amore-suspense-romantica",
       "icona": "",
-      "genitore": "hobby-casa-tempo-libero",
+      "genitore": "romance-e-storie-d-amore",
       "tr": {
         "en": {
-          "nome": "Home & Decor"
+          "nome": "Romantic Suspense"
         }
       }
     },
     {
-      "nome": "Artigianato e lavoretti creativi",
-      "id": "hobby-casa-tempo-libero-artigianato-e-lavoretti-creativi",
+      "nome": "Commedia romantica",
+      "id": "romance-e-storie-d-amore-commedia-romantica",
       "icona": "",
-      "genitore": "hobby-casa-tempo-libero",
+      "genitore": "romance-e-storie-d-amore",
       "tr": {
         "en": {
-          "nome": "Crafts"
+          "nome": "Romantic Comedy"
         }
       }
     },
     {
-      "nome": "Animali domestici",
-      "id": "hobby-casa-tempo-libero-animali-domestici",
+      "nome": "Romance LGBTQ+",
+      "id": "romance-e-storie-d-amore-romance-lgbtq",
       "icona": "",
-      "genitore": "hobby-casa-tempo-libero",
-      "tr": {
-        "en": {
-          "nome": "Pets"
-        }
-      }
-    },
-    {
-      "nome": "Sport e outdoor",
-      "id": "sport-outdoor",
-      "icona": "\u26bd",
+      "genitore": "romance-e-storie-d-amore",
       "tr": {
         "en": {
-          "nome": "Sports & Outdoors"
+          "nome": "LGBTQ+ Romance"
         }
       }
     },
     {
-      "nome": "Corsa e atletica",
-      "id": "sport-outdoor-corsa-e-atletica",
+      "nome": "Seconde occasioni",
+      "id": "romance-e-storie-d-amore-seconde-occasioni",
       "icona": "",
-      "genitore": "sport-outdoor",
+      "genitore": "romance-e-storie-d-amore",
       "tr": {
         "en": {
-          "nome": "Running & Athletics"
+          "nome": "Second Chances"
         }
       }
     },
     {
-      "nome": "Ciclismo",
-      "id": "sport-outdoor-ciclismo",
-      "icona": "",
-      "genitore": "sport-outdoor",
+      "nome": "Fantasy e fantascienza",
+      "id": "fantasy-e-fantascienza",
+      "icona": "🐉",
       "tr": {
         "en": {
-          "nome": "Cycling"
+          "nome": "Fantasy & Science Fiction"
         }
       }
     },
     {
-      "nome": "Montagna e trekking",
-      "id": "sport-outdoor-montagna-e-trekking",
+      "nome": "Epic fantasy",
+      "id": "fantasy-e-fantascienza-epic-fantasy",
       "icona": "",
-      "genitore": "sport-outdoor",
+      "genitore": "fantasy-e-fantascienza",
       "tr": {
         "en": {
-          "nome": "Hiking & Mountaineering"
+          "nome": "Epic Fantasy"
         }
       }
     },
     {
-      "nome": "Calcio",
-      "id": "sport-outdoor-calcio",
+      "nome": "Urban fantasy",
+      "id": "fantasy-e-fantascienza-urban-fantasy",
       "icona": "",
-      "genitore": "sport-outdoor",
+      "genitore": "fantasy-e-fantascienza",
       "tr": {
         "en": {
-          "nome": "Football"
+          "nome": "Urban Fantasy"
         }
       }
     },
     {
-      "nome": "Sport acquatici",
-      "id": "sport-outdoor-sport-acquatici",
+      "nome": "Dark fantasy",
+      "id": "fantasy-e-fantascienza-dark-fantasy",
       "icona": "",
-      "genitore": "sport-outdoor",
-      "tr": {
-        "en": {
-          "nome": "Water Sports"
-        }
-      }
-    },
-    {
-      "nome": "Diritto e fisco",
-      "id": "diritto-fisco",
-      "icona": "\u2696\ufe0f",
+      "genitore": "fantasy-e-fantascienza",
       "tr": {
         "en": {
-          "nome": "Law & Tax"
+          "nome": "Dark Fantasy"
         }
       }
     },
     {
-      "nome": "Diritto civile",
-      "id": "diritto-fisco-diritto-civile",
+      "nome": "Fantascienza spaziale",
+      "id": "fantasy-e-fantascienza-fantascienza-spaziale",
       "icona": "",
-      "genitore": "diritto-fisco",
+      "genitore": "fantasy-e-fantascienza",
       "tr": {
         "en": {
-          "nome": "Civil Law"
+          "nome": "Space Science Fiction"
         }
       }
     },
     {
-      "nome": "Diritto del lavoro",
-      "id": "diritto-fisco-diritto-del-lavoro",
+      "nome": "Distopia e post-apocalittico",
+      "id": "fantasy-e-fantascienza-distopia-e-post-apocalittico",
       "icona": "",
-      "genitore": "diritto-fisco",
+      "genitore": "fantasy-e-fantascienza",
       "tr": {
         "en": {
-          "nome": "Employment Law"
+          "nome": "Dystopian & Post-Apocalyptic"
         }
       }
     },
     {
-      "nome": "Fisco e tributi",
-      "id": "diritto-fisco-fisco-e-tributi",
+      "nome": "Cyberpunk e steampunk",
+      "id": "fantasy-e-fantascienza-cyberpunk-e-steampunk",
       "icona": "",
-      "genitore": "diritto-fisco",
+      "genitore": "fantasy-e-fantascienza",
       "tr": {
         "en": {
-          "nome": "Tax & Duties"
+          "nome": "Cyberpunk & Steampunk"
         }
       }
     },
     {
-      "nome": "Contratti e societ\u00e0",
-      "id": "diritto-fisco-contratti-e-societa",
+      "nome": "Viaggi nel tempo",
+      "id": "fantasy-e-fantascienza-viaggi-nel-tempo",
       "icona": "",
-      "genitore": "diritto-fisco",
+      "genitore": "fantasy-e-fantascienza",
       "tr": {
         "en": {
-          "nome": "Contracts & Companies"
+          "nome": "Time Travel"
         }
       }
     },
     {
-      "nome": "Privacy e GDPR",
-      "id": "diritto-fisco-privacy-e-gdpr",
+      "nome": "Horror e soprannaturale",
+      "id": "fantasy-e-fantascienza-horror-e-soprannaturale",
       "icona": "",
-      "genitore": "diritto-fisco",
+      "genitore": "fantasy-e-fantascienza",
       "tr": {
         "en": {
-          "nome": "Privacy & GDPR"
+          "nome": "Horror & Supernatural"
         }
       }
     },
     {
-      "nome": "Saggistica e varia",
-      "id": "saggistica-varia",
+      "nome": "Narrativa e classici",
+      "id": "narrativa-e-classici",
       "icona": "📖",
       "tr": {
         "en": {
-          "nome": "Non-fiction & General"
+          "nome": "Fiction & Classics"
         }
       }
     },
     {
-      "nome": "Famiglia e relazioni",
-      "id": "saggistica-varia-famiglia-e-relazioni",
+      "nome": "Classici della letteratura",
+      "id": "narrativa-e-classici-classici-della-letteratura",
       "icona": "",
-      "genitore": "saggistica-varia",
+      "genitore": "narrativa-e-classici",
       "tr": {
         "en": {
-          "nome": "Family & Relationships"
+          "nome": "Literary Classics"
         }
       }
     },
     {
-      "nome": "Religione e spiritualit\u00e0",
-      "id": "saggistica-varia-religione-e-spiritualita",
+      "nome": "Narrativa contemporanea",
+      "id": "narrativa-e-classici-narrativa-contemporanea",
       "icona": "",
-      "genitore": "saggistica-varia",
+      "genitore": "narrativa-e-classici",
       "tr": {
         "en": {
-          "nome": "Religion & Spirituality"
+          "nome": "Contemporary Fiction"
         }
       }
     },
     {
-      "nome": "Scienza e natura",
-      "id": "saggistica-varia-scienza-e-natura",
+      "nome": "Romanzi di formazione",
+      "id": "narrativa-e-classici-romanzi-di-formazione",
       "icona": "",
-      "genitore": "saggistica-varia",
+      "genitore": "narrativa-e-classici",
       "tr": {
         "en": {
-          "nome": "Science & Nature"
+          "nome": "Coming-of-Age Novels"
         }
       }
     },
     {
-      "nome": "Societ\u00e0",
-      "id": "saggistica-varia-societa",
+      "nome": "Narrativa storica",
+      "id": "narrativa-e-classici-narrativa-storica",
       "icona": "",
-      "genitore": "saggistica-varia",
+      "genitore": "narrativa-e-classici",
       "tr": {
         "en": {
-          "nome": "Society"
+          "nome": "Historical Fiction"
         }
       }
     },
     {
-      "nome": "Spettacolo",
-      "id": "saggistica-varia-spettacolo",
+      "nome": "Racconti e antologie",
+      "id": "narrativa-e-classici-racconti-e-antologie",
       "icona": "",
-      "genitore": "saggistica-varia",
+      "genitore": "narrativa-e-classici",
       "tr": {
         "en": {
-          "nome": "Entertainment"
+          "nome": "Short Stories & Anthologies"
         }
       }
     },
     {
-      "nome": "Storia",
-      "id": "saggistica-varia-storia",
+      "nome": "Poesia",
+      "id": "narrativa-e-classici-poesia",
       "icona": "",
-      "genitore": "saggistica-varia",
+      "genitore": "narrativa-e-classici",
       "tr": {
         "en": {
-          "nome": "History"
+          "nome": "Poetry"
         }
       }
     },
     {
-      "nome": "Viaggi",
-      "id": "saggistica-varia-viaggi",
+      "nome": "Teatro",
+      "id": "narrativa-e-classici-teatro",
       "icona": "",
-      "genitore": "saggistica-varia",
+      "genitore": "narrativa-e-classici",
       "tr": {
         "en": {
-          "nome": "Travel"
+          "nome": "Theatre & Plays"
+        }
+      }
+    },
+    {
+      "nome": "Umorismo e satira",
+      "id": "narrativa-e-classici-umorismo-e-satira",
+      "icona": "",
+      "genitore": "narrativa-e-classici",
+      "tr": {
+        "en": {
+          "nome": "Humor & Satire"
+        }
+      }
+    },
+    {
+      "nome": "Fumetti, manga e graphic novel",
+      "id": "fumetti-manga-e-graphic-novel",
+      "icona": "💥",
+      "tr": {
+        "en": {
+          "nome": "Comics, Manga & Graphic Novels"
+        }
+      }
+    },
+    {
+      "nome": "Manga shonen e seinen",
+      "id": "fumetti-manga-e-graphic-novel-manga-shonen-e-seinen",
+      "icona": "",
+      "genitore": "fumetti-manga-e-graphic-novel",
+      "tr": {
+        "en": {
+          "nome": "Shonen & Seinen Manga"
+        }
+      }
+    },
+    {
+      "nome": "Manga shojo e josei",
+      "id": "fumetti-manga-e-graphic-novel-manga-shojo-e-josei",
+      "icona": "",
+      "genitore": "fumetti-manga-e-graphic-novel",
+      "tr": {
+        "en": {
+          "nome": "Shojo & Josei Manga"
+        }
+      }
+    },
+    {
+      "nome": "Supereroi",
+      "id": "fumetti-manga-e-graphic-novel-supereroi",
+      "icona": "",
+      "genitore": "fumetti-manga-e-graphic-novel",
+      "tr": {
+        "en": {
+          "nome": "Superheroes"
+        }
+      }
+    },
+    {
+      "nome": "Graphic novel d'autore",
+      "id": "fumetti-manga-e-graphic-novel-graphic-novel-d-autore",
+      "icona": "",
+      "genitore": "fumetti-manga-e-graphic-novel",
+      "tr": {
+        "en": {
+          "nome": "Auteur Graphic Novels"
+        }
+      }
+    },
+    {
+      "nome": "Fumetti italiani",
+      "id": "fumetti-manga-e-graphic-novel-fumetti-italiani",
+      "icona": "",
+      "genitore": "fumetti-manga-e-graphic-novel",
+      "tr": {
+        "en": {
+          "nome": "Italian Comics"
+        }
+      }
+    },
+    {
+      "nome": "Fumetti autobiografici",
+      "id": "fumetti-manga-e-graphic-novel-fumetti-autobiografici",
+      "icona": "",
+      "genitore": "fumetti-manga-e-graphic-novel",
+      "tr": {
+        "en": {
+          "nome": "Autobiographical Comics"
+        }
+      }
+    },
+    {
+      "nome": "Fumetti per ragazzi",
+      "id": "fumetti-manga-e-graphic-novel-fumetti-per-ragazzi",
+      "icona": "",
+      "genitore": "fumetti-manga-e-graphic-novel",
+      "tr": {
+        "en": {
+          "nome": "Comics for Young Readers"
+        }
+      }
+    },
+    {
+      "nome": "Strisce e vignette",
+      "id": "fumetti-manga-e-graphic-novel-strisce-e-vignette",
+      "icona": "",
+      "genitore": "fumetti-manga-e-graphic-novel",
+      "tr": {
+        "en": {
+          "nome": "Strips & Cartoons"
+        }
+      }
+    },
+    {
+      "nome": "Bambini e ragazzi",
+      "id": "bambini-e-ragazzi",
+      "icona": "🧸",
+      "tr": {
+        "en": {
+          "nome": "Kids & Young Readers"
+        }
+      }
+    },
+    {
+      "nome": "Albi illustrati",
+      "id": "bambini-e-ragazzi-albi-illustrati",
+      "icona": "",
+      "genitore": "bambini-e-ragazzi",
+      "tr": {
+        "en": {
+          "nome": "Picture Books"
+        }
+      }
+    },
+    {
+      "nome": "Prime letture",
+      "id": "bambini-e-ragazzi-prime-letture",
+      "icona": "",
+      "genitore": "bambini-e-ragazzi",
+      "tr": {
+        "en": {
+          "nome": "First Readers"
+        }
+      }
+    },
+    {
+      "nome": "Avventura per ragazzi",
+      "id": "bambini-e-ragazzi-avventura-per-ragazzi",
+      "icona": "",
+      "genitore": "bambini-e-ragazzi",
+      "tr": {
+        "en": {
+          "nome": "Adventure for Young Readers"
+        }
+      }
+    },
+    {
+      "nome": "Fiabe e favole",
+      "id": "bambini-e-ragazzi-fiabe-e-favole",
+      "icona": "",
+      "genitore": "bambini-e-ragazzi",
+      "tr": {
+        "en": {
+          "nome": "Fairy Tales & Fables"
+        }
+      }
+    },
+    {
+      "nome": "Scienza e natura per ragazzi",
+      "id": "bambini-e-ragazzi-scienza-e-natura-per-ragazzi",
+      "icona": "",
+      "genitore": "bambini-e-ragazzi",
+      "tr": {
+        "en": {
+          "nome": "Science & Nature for Kids"
+        }
+      }
+    },
+    {
+      "nome": "Giochi e attività",
+      "id": "bambini-e-ragazzi-giochi-e-attivita",
+      "icona": "",
+      "genitore": "bambini-e-ragazzi",
+      "tr": {
+        "en": {
+          "nome": "Games & Activities"
+        }
+      }
+    },
+    {
+      "nome": "Young adult",
+      "id": "bambini-e-ragazzi-young-adult",
+      "icona": "",
+      "genitore": "bambini-e-ragazzi",
+      "tr": {
+        "en": {
+          "nome": "Young Adult"
+        }
+      }
+    },
+    {
+      "nome": "Libri per la scuola",
+      "id": "bambini-e-ragazzi-libri-per-la-scuola",
+      "icona": "",
+      "genitore": "bambini-e-ragazzi",
+      "tr": {
+        "en": {
+          "nome": "School Books"
         }
       }
     },
     {
       "nome": "Biografie e memorie",
-      "id": "biografie-memorie",
+      "id": "biografie-e-memorie",
       "icona": "👤",
       "tr": {
         "en": {
@@ -980,1729 +600,583 @@
       }
     },
     {
-      "nome": "Artisti, architetti e fotografi",
-      "id": "biografie-memorie-artisti-architetti-e-fotografi",
+      "nome": "Artisti e creativi",
+      "id": "biografie-e-memorie-artisti-e-creativi",
       "icona": "",
-      "genitore": "biografie-memorie",
+      "genitore": "biografie-e-memorie",
       "tr": {
         "en": {
-          "nome": "Artists, Architects & Photographers"
+          "nome": "Artists & Creatives"
         }
       }
     },
     {
-      "nome": "Case reali",
-      "id": "biografie-memorie-case-reali",
+      "nome": "Imprenditori e leader",
+      "id": "biografie-e-memorie-imprenditori-e-leader",
       "icona": "",
-      "genitore": "biografie-memorie",
+      "genitore": "biografie-e-memorie",
       "tr": {
         "en": {
-          "nome": "Royal Families"
+          "nome": "Entrepreneurs & Leaders"
         }
       }
     },
     {
-      "nome": "Compositori e musicisti",
-      "id": "biografie-memorie-compositori-e-musicisti",
+      "nome": "Sportivi",
+      "id": "biografie-e-memorie-sportivi",
       "icona": "",
-      "genitore": "biografie-memorie",
+      "genitore": "biografie-e-memorie",
       "tr": {
         "en": {
-          "nome": "Composers & Musicians"
+          "nome": "Athletes"
         }
       }
     },
     {
-      "nome": "Consultazione",
-      "id": "biografie-memorie-consultazione",
+      "nome": "Musicisti e protagonisti dello spettacolo",
+      "id": "biografie-e-memorie-musicisti-e-protagonisti-dello-spettacolo",
       "icona": "",
-      "genitore": "biografie-memorie",
+      "genitore": "biografie-e-memorie",
       "tr": {
         "en": {
-          "nome": "Reference"
+          "nome": "Musicians & Performers"
         }
       }
     },
     {
-      "nome": "Filosofi",
-      "id": "biografie-memorie-filosofi",
+      "nome": "Scienziati e pensatori",
+      "id": "biografie-e-memorie-scienziati-e-pensatori",
       "icona": "",
-      "genitore": "biografie-memorie",
+      "genitore": "biografie-e-memorie",
       "tr": {
         "en": {
-          "nome": "Philosophers"
+          "nome": "Scientists & Thinkers"
         }
       }
     },
     {
-      "nome": "Letteratura",
-      "id": "biografie-memorie-letteratura",
+      "nome": "Protagonisti della storia",
+      "id": "biografie-e-memorie-protagonisti-della-storia",
       "icona": "",
-      "genitore": "biografie-memorie",
+      "genitore": "biografie-e-memorie",
       "tr": {
         "en": {
-          "nome": "Literary"
+          "nome": "Figures of History"
         }
       }
     },
     {
-      "nome": "Politica",
-      "id": "biografie-memorie-politica",
+      "nome": "Autobiografie e memorie",
+      "id": "biografie-e-memorie-autobiografie-e-memorie",
       "icona": "",
-      "genitore": "biografie-memorie",
+      "genitore": "biografie-e-memorie",
       "tr": {
         "en": {
-          "nome": "Political"
+          "nome": "Autobiographies & Memoirs"
         }
       }
     },
     {
-      "nome": "Religione",
-      "id": "biografie-memorie-religione",
+      "nome": "Diari e lettere",
+      "id": "biografie-e-memorie-diari-e-lettere",
       "icona": "",
-      "genitore": "biografie-memorie",
+      "genitore": "biografie-e-memorie",
       "tr": {
         "en": {
-          "nome": "Religious"
+          "nome": "Diaries & Letters"
         }
       }
     },
     {
-      "nome": "Showbusiness",
-      "id": "biografie-memorie-showbusiness",
-      "icona": "",
-      "genitore": "biografie-memorie",
+      "nome": "Storia, politica e società",
+      "id": "storia-politica-e-societa",
+      "icona": "🏛",
       "tr": {
         "en": {
-          "nome": "Show Business"
+          "nome": "History, Politics & Society"
         }
       }
     },
     {
-      "nome": "Spettacolo",
-      "id": "biografie-memorie-spettacolo",
+      "nome": "Storia antica e medievale",
+      "id": "storia-politica-e-societa-storia-antica-e-medievale",
       "icona": "",
-      "genitore": "biografie-memorie",
+      "genitore": "storia-politica-e-societa",
       "tr": {
         "en": {
-          "nome": "Entertainment"
+          "nome": "Ancient & Medieval History"
         }
       }
     },
     {
-      "nome": "Sport",
-      "id": "biografie-memorie-sport",
+      "nome": "Storia moderna",
+      "id": "storia-politica-e-societa-storia-moderna",
       "icona": "",
-      "genitore": "biografie-memorie",
+      "genitore": "storia-politica-e-societa",
       "tr": {
         "en": {
-          "nome": "Sports"
+          "nome": "Modern History"
         }
       }
     },
     {
-      "nome": "Storici",
-      "id": "biografie-memorie-storici",
+      "nome": "Storia contemporanea",
+      "id": "storia-politica-e-societa-storia-contemporanea",
       "icona": "",
-      "genitore": "biografie-memorie",
+      "genitore": "storia-politica-e-societa",
       "tr": {
         "en": {
-          "nome": "Historical"
+          "nome": "Contemporary History"
         }
       }
     },
     {
-      "nome": "Narrativa e letteratura",
-      "id": "narrativa-letteratura",
-      "icona": "\u270d\ufe0f",
+      "nome": "Guerre e conflitti",
+      "id": "storia-politica-e-societa-guerre-e-conflitti",
+      "icona": "",
+      "genitore": "storia-politica-e-societa",
       "tr": {
         "en": {
-          "nome": "Fiction & Literature"
+          "nome": "Wars & Conflicts"
         }
       }
     },
     {
-      "nome": "Antologie",
-      "id": "narrativa-letteratura-antologie",
+      "nome": "Politica e istituzioni",
+      "id": "storia-politica-e-societa-politica-e-istituzioni",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "storia-politica-e-societa",
       "tr": {
         "en": {
-          "nome": "Anthologies"
+          "nome": "Politics & Institutions"
         }
       }
     },
     {
-      "nome": "Azione",
-      "id": "narrativa-letteratura-azione",
+      "nome": "Sociologia e cultura",
+      "id": "storia-politica-e-societa-sociologia-e-cultura",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "storia-politica-e-societa",
       "tr": {
         "en": {
-          "nome": "Action"
+          "nome": "Sociology & Culture"
         }
       }
     },
     {
-      "nome": "Classici",
-      "id": "narrativa-letteratura-classici",
+      "nome": "Filosofia",
+      "id": "storia-politica-e-societa-filosofia",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "storia-politica-e-societa",
       "tr": {
         "en": {
-          "nome": "Classics"
+          "nome": "Philosophy"
         }
       }
     },
     {
-      "nome": "Critica e teoria della letteratura",
-      "id": "narrativa-letteratura-critica-e-teoria-della-letteratura",
+      "nome": "Attualità e inchieste",
+      "id": "storia-politica-e-societa-attualita-e-inchieste",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "storia-politica-e-societa",
       "tr": {
         "en": {
-          "nome": "Literary Criticism & Theory"
+          "nome": "Current Affairs & Investigations"
         }
       }
     },
     {
-      "nome": "Eredit\u00e0 culturale",
-      "id": "narrativa-letteratura-eredita-culturale",
-      "icona": "",
-      "genitore": "narrativa-letteratura",
+      "nome": "Economia, lavoro e finanza",
+      "id": "economia-lavoro-e-finanza",
+      "icona": "📈",
       "tr": {
         "en": {
-          "nome": "Cultural Heritage"
+          "nome": "Business, Work & Finance"
         }
       }
     },
     {
-      "nome": "Femminili contemporanei",
-      "id": "narrativa-letteratura-femminili-contemporanei",
+      "nome": "Finanza personale",
+      "id": "economia-lavoro-e-finanza-finanza-personale",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "economia-lavoro-e-finanza",
       "tr": {
         "en": {
-          "nome": "Contemporary Women's Fiction"
+          "nome": "Personal Finance"
         }
       }
     },
     {
-      "nome": "LGBT",
-      "id": "narrativa-letteratura-lgbt",
+      "nome": "Investimenti e borsa",
+      "id": "economia-lavoro-e-finanza-investimenti-e-borsa",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "economia-lavoro-e-finanza",
       "tr": {
         "en": {
-          "nome": "LGBT"
+          "nome": "Investing & Markets"
         }
       }
     },
     {
-      "nome": "Letteratura",
-      "id": "narrativa-letteratura-letteratura",
+      "nome": "Startup e imprenditoria",
+      "id": "economia-lavoro-e-finanza-startup-e-imprenditoria",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "economia-lavoro-e-finanza",
       "tr": {
         "en": {
-          "nome": "General Literature"
+          "nome": "Startups & Entrepreneurship"
         }
       }
     },
     {
-      "nome": "Letteratura afroamericana",
-      "id": "narrativa-letteratura-letteratura-afroamericana",
+      "nome": "Management e leadership",
+      "id": "economia-lavoro-e-finanza-management-e-leadership",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "economia-lavoro-e-finanza",
       "tr": {
         "en": {
-          "nome": "African American Literature"
+          "nome": "Management & Leadership"
         }
       }
     },
     {
-      "nome": "Militare",
-      "id": "narrativa-letteratura-militare",
+      "nome": "Marketing e vendite",
+      "id": "economia-lavoro-e-finanza-marketing-e-vendite",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "economia-lavoro-e-finanza",
       "tr": {
         "en": {
-          "nome": "Military"
+          "nome": "Marketing & Sales"
         }
       }
     },
     {
-      "nome": "Narrativa d'intrattenimento",
-      "id": "narrativa-letteratura-narrativa-d-intrattenimento",
+      "nome": "Carriera e ricerca del lavoro",
+      "id": "economia-lavoro-e-finanza-carriera-e-ricerca-del-lavoro",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "economia-lavoro-e-finanza",
       "tr": {
         "en": {
-          "nome": "Popular Fiction"
+          "nome": "Career & Job Search"
         }
       }
     },
     {
-      "nome": "Nativi Americani e aborigeni",
-      "id": "narrativa-letteratura-nativi-americani-e-aborigeni",
+      "nome": "Contabilità e fisco",
+      "id": "economia-lavoro-e-finanza-contabilita-e-fisco",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "economia-lavoro-e-finanza",
       "tr": {
         "en": {
-          "nome": "Native American & Aboriginal"
+          "nome": "Accounting & Taxes"
         }
       }
     },
     {
-      "nome": "Orrore",
-      "id": "narrativa-letteratura-orrore",
+      "nome": "Economia e mercati",
+      "id": "economia-lavoro-e-finanza-economia-e-mercati",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "economia-lavoro-e-finanza",
       "tr": {
         "en": {
-          "nome": "Horror"
+          "nome": "Economics"
         }
       }
     },
     {
-      "nome": "Poesia",
-      "id": "narrativa-letteratura-poesia",
-      "icona": "",
-      "genitore": "narrativa-letteratura",
+      "nome": "Crescita personale e benessere",
+      "id": "crescita-personale-e-benessere",
+      "icona": "🌱",
       "tr": {
         "en": {
-          "nome": "Poetry"
+          "nome": "Self-Improvement & Wellbeing"
         }
       }
     },
     {
-      "nome": "Poliziesco",
-      "id": "narrativa-letteratura-poliziesco",
+      "nome": "Motivazione e successo",
+      "id": "crescita-personale-e-benessere-motivazione-e-successo",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "crescita-personale-e-benessere",
       "tr": {
         "en": {
-          "nome": "Crime"
+          "nome": "Motivation & Success"
+        }
+      }
+    },
+    {
+      "nome": "Abitudini e produttività",
+      "id": "crescita-personale-e-benessere-abitudini-e-produttivita",
+      "icona": "",
+      "genitore": "crescita-personale-e-benessere",
+      "tr": {
+        "en": {
+          "nome": "Habits & Productivity"
+        }
+      }
+    },
+    {
+      "nome": "Gestione dello stress",
+      "id": "crescita-personale-e-benessere-gestione-dello-stress",
+      "icona": "",
+      "genitore": "crescita-personale-e-benessere",
+      "tr": {
+        "en": {
+          "nome": "Stress Management"
         }
       }
     },
     {
       "nome": "Psicologia",
-      "id": "narrativa-letteratura-psicologia",
+      "id": "crescita-personale-e-benessere-psicologia",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "crescita-personale-e-benessere",
       "tr": {
         "en": {
-          "nome": "Psychological"
+          "nome": "Psychology"
         }
       }
     },
     {
-      "nome": "Racconti",
-      "id": "narrativa-letteratura-racconti",
+      "nome": "Relazioni e famiglia",
+      "id": "crescita-personale-e-benessere-relazioni-e-famiglia",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "crescita-personale-e-benessere",
       "tr": {
         "en": {
-          "nome": "Short Stories"
+          "nome": "Relationships & Family"
         }
       }
     },
     {
-      "nome": "Religione",
-      "id": "narrativa-letteratura-religione",
+      "nome": "Meditazione e mindfulness",
+      "id": "crescita-personale-e-benessere-meditazione-e-mindfulness",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "crescita-personale-e-benessere",
       "tr": {
         "en": {
-          "nome": "Religious"
+          "nome": "Meditation & Mindfulness"
         }
       }
     },
     {
-      "nome": "Romanzi di formazione",
-      "id": "narrativa-letteratura-romanzi-di-formazione",
+      "nome": "Alimentazione e salute",
+      "id": "crescita-personale-e-benessere-alimentazione-e-salute",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "crescita-personale-e-benessere",
       "tr": {
         "en": {
-          "nome": "Coming-of-Age"
+          "nome": "Nutrition & Health"
         }
       }
     },
     {
-      "nome": "Saggi ed epistolari",
-      "id": "narrativa-letteratura-saggi-ed-epistolari",
+      "nome": "Sonno e riposo",
+      "id": "crescita-personale-e-benessere-sonno-e-riposo",
       "icona": "",
-      "genitore": "narrativa-letteratura",
+      "genitore": "crescita-personale-e-benessere",
       "tr": {
         "en": {
-          "nome": "Essays & Letters"
+          "nome": "Sleep & Rest"
         }
       }
     },
     {
-      "nome": "Saghe",
-      "id": "narrativa-letteratura-saghe",
-      "icona": "",
-      "genitore": "narrativa-letteratura",
-      "tr": {
-        "en": {
-          "nome": "Sagas"
-        }
-      }
-    },
-    {
-      "nome": "Storici",
-      "id": "narrativa-letteratura-storici",
-      "icona": "",
-      "genitore": "narrativa-letteratura",
-      "tr": {
-        "en": {
-          "nome": "Historical"
-        }
-      }
-    },
-    {
-      "nome": "Teatro",
-      "id": "narrativa-letteratura-teatro",
-      "icona": "",
-      "genitore": "narrativa-letteratura",
-      "tr": {
-        "en": {
-          "nome": "Theatre"
-        }
-      }
-    },
-    {
-      "nome": "Thriller",
-      "id": "narrativa-letteratura-thriller",
-      "icona": "",
-      "genitore": "narrativa-letteratura",
-      "tr": {
-        "en": {
-          "nome": "Thriller"
-        }
-      }
-    },
-    {
-      "nome": "Tratti da film o serie televisive",
-      "id": "narrativa-letteratura-tratti-da-film-o-serie-televisive",
-      "icona": "",
-      "genitore": "narrativa-letteratura",
-      "tr": {
-        "en": {
-          "nome": "Film & TV Tie-ins"
-        }
-      }
-    },
-    {
-      "nome": "Umorismo",
-      "id": "narrativa-letteratura-umorismo",
-      "icona": "",
-      "genitore": "narrativa-letteratura",
-      "tr": {
-        "en": {
-          "nome": "Humor"
-        }
-      }
-    },
-    {
-      "nome": "Vita familiare",
-      "id": "narrativa-letteratura-vita-familiare",
-      "icona": "",
-      "genitore": "narrativa-letteratura",
-      "tr": {
-        "en": {
-          "nome": "Family Life"
-        }
-      }
-    },
-    {
-      "nome": "Western",
-      "id": "narrativa-letteratura-western",
-      "icona": "",
-      "genitore": "narrativa-letteratura",
-      "tr": {
-        "en": {
-          "nome": "Western"
-        }
-      }
-    },
-    {
-      "nome": "Gialli, thriller e suspense",
-      "id": "gialli-thriller-suspense",
-      "icona": "🔍",
-      "tr": {
-        "en": {
-          "nome": "Mystery, Thriller & Suspense"
-        }
-      }
-    },
-    {
-      "nome": "Donne detective",
-      "id": "gialli-thriller-suspense-donne-detective",
-      "icona": "",
-      "genitore": "gialli-thriller-suspense",
-      "tr": {
-        "en": {
-          "nome": "Women Sleuths"
-        }
-      }
-    },
-    {
-      "nome": "Gialli storici",
-      "id": "gialli-thriller-suspense-gialli-storici",
-      "icona": "",
-      "genitore": "gialli-thriller-suspense",
-      "tr": {
-        "en": {
-          "nome": "Historical Mysteries"
-        }
-      }
-    },
-    {
-      "nome": "Giustizia",
-      "id": "gialli-thriller-suspense-giustizia",
-      "icona": "",
-      "genitore": "gialli-thriller-suspense",
-      "tr": {
-        "en": {
-          "nome": "Legal"
-        }
-      }
-    },
-    {
-      "nome": "Inglesi tradizionali",
-      "id": "gialli-thriller-suspense-inglesi-tradizionali",
-      "icona": "",
-      "genitore": "gialli-thriller-suspense",
-      "tr": {
-        "en": {
-          "nome": "Traditional British"
-        }
-      }
-    },
-    {
-      "nome": "Internazionale",
-      "id": "gialli-thriller-suspense-internazionale",
-      "icona": "",
-      "genitore": "gialli-thriller-suspense",
-      "tr": {
-        "en": {
-          "nome": "International"
-        }
-      }
-    },
-    {
-      "nome": "Polizieschi",
-      "id": "gialli-thriller-suspense-polizieschi",
-      "icona": "",
-      "genitore": "gialli-thriller-suspense",
-      "tr": {
-        "en": {
-          "nome": "Police Procedurals"
-        }
-      }
-    },
-    {
-      "nome": "Polizieschi leggeri",
-      "id": "gialli-thriller-suspense-polizieschi-leggeri",
-      "icona": "",
-      "genitore": "gialli-thriller-suspense",
-      "tr": {
-        "en": {
-          "nome": "Cozy Mysteries"
-        }
-      }
-    },
-    {
-      "nome": "Romanzi neri",
-      "id": "gialli-thriller-suspense-romanzi-neri",
-      "icona": "",
-      "genitore": "gialli-thriller-suspense",
-      "tr": {
-        "en": {
-          "nome": "Noir"
-        }
-      }
-    },
-    {
-      "nome": "Thriller",
-      "id": "gialli-thriller-suspense-thriller",
-      "icona": "",
-      "genitore": "gialli-thriller-suspense",
-      "tr": {
-        "en": {
-          "nome": "Thrillers"
-        }
-      }
-    },
-    {
-      "nome": "Romanzi d'amore",
-      "id": "romanzi-d-amore",
-      "icona": "\u2764\ufe0f",
-      "tr": {
-        "en": {
-          "nome": "Romance"
-        }
-      }
-    },
-    {
-      "nome": "Amore adolescenziale",
-      "id": "romanzi-d-amore-amore-adolescenziale",
-      "icona": "",
-      "genitore": "romanzi-d-amore",
-      "tr": {
-        "en": {
-          "nome": "Teen Romance"
-        }
-      }
-    },
-    {
-      "nome": "Contemporanei",
-      "id": "romanzi-d-amore-contemporanei",
-      "icona": "",
-      "genitore": "romanzi-d-amore",
-      "tr": {
-        "en": {
-          "nome": "Contemporary"
-        }
-      }
-    },
-    {
-      "nome": "Erotismo",
-      "id": "romanzi-d-amore-erotismo",
-      "icona": "",
-      "genitore": "romanzi-d-amore",
-      "tr": {
-        "en": {
-          "nome": "Erotic"
-        }
-      }
-    },
-    {
-      "nome": "Fantascienza romantica",
-      "id": "romanzi-d-amore-fantascienza-romantica",
-      "icona": "",
-      "genitore": "romanzi-d-amore",
-      "tr": {
-        "en": {
-          "nome": "Science Fiction Romance"
-        }
-      }
-    },
-    {
-      "nome": "LGBT",
-      "id": "romanzi-d-amore-lgbt",
-      "icona": "",
-      "genitore": "romanzi-d-amore",
-      "tr": {
-        "en": {
-          "nome": "LGBT"
-        }
-      }
-    },
-    {
-      "nome": "New Adult",
-      "id": "romanzi-d-amore-new-adult",
-      "icona": "",
-      "genitore": "romanzi-d-amore",
-      "tr": {
-        "en": {
-          "nome": "New Adult"
-        }
-      }
-    },
-    {
-      "nome": "Paranormal Romance",
-      "id": "romanzi-d-amore-paranormal-romance",
-      "icona": "",
-      "genitore": "romanzi-d-amore",
-      "tr": {
-        "en": {
-          "nome": "Paranormal Romance"
-        }
-      }
-    },
-    {
-      "nome": "Per adulti",
-      "id": "romanzi-d-amore-per-adulti",
-      "icona": "",
-      "genitore": "romanzi-d-amore",
-      "tr": {
-        "en": {
-          "nome": "Adult"
-        }
-      }
-    },
-    {
-      "nome": "Romanzi cristiani",
-      "id": "romanzi-d-amore-romanzi-cristiani",
-      "icona": "",
-      "genitore": "romanzi-d-amore",
-      "tr": {
-        "en": {
-          "nome": "Christian"
-        }
-      }
-    },
-    {
-      "nome": "Sport",
-      "id": "romanzi-d-amore-sport",
-      "icona": "",
-      "genitore": "romanzi-d-amore",
-      "tr": {
-        "en": {
-          "nome": "Sports"
-        }
-      }
-    },
-    {
-      "nome": "Storici",
-      "id": "romanzi-d-amore-storici",
-      "icona": "",
-      "genitore": "romanzi-d-amore",
-      "tr": {
-        "en": {
-          "nome": "Historical"
-        }
-      }
-    },
-    {
-      "nome": "Suspense romantica",
-      "id": "romanzi-d-amore-suspense-romantica",
-      "icona": "",
-      "genitore": "romanzi-d-amore",
-      "tr": {
-        "en": {
-          "nome": "Romantic Suspense"
-        }
-      }
-    },
-    {
-      "nome": "Yaoi",
-      "id": "romanzi-d-amore-yaoi",
-      "icona": "",
-      "genitore": "romanzi-d-amore",
-      "tr": {
-        "en": {
-          "nome": "Yaoi"
-        }
-      }
-    },
-    {
-      "nome": "Fantascienza e fantasy",
-      "id": "fantascienza-fantasy",
-      "icona": "🚀",
-      "tr": {
-        "en": {
-          "nome": "Science Fiction & Fantasy"
-        }
-      }
-    },
-    {
-      "nome": "Ad alto contenuto tecnologico",
-      "id": "fantascienza-fantasy-ad-alto-contenuto-tecnologico",
-      "icona": "",
-      "genitore": "fantascienza-fantasy",
-      "tr": {
-        "en": {
-          "nome": "Hard Science Fiction"
-        }
-      }
-    },
-    {
-      "nome": "Fantascienza",
-      "id": "fantascienza-fantasy-fantascienza",
-      "icona": "",
-      "genitore": "fantascienza-fantasy",
-      "tr": {
-        "en": {
-          "nome": "Science Fiction"
-        }
-      }
-    },
-    {
-      "nome": "Fantasy",
-      "id": "fantascienza-fantasy-fantasy",
-      "icona": "",
-      "genitore": "fantascienza-fantasy",
+      "nome": "Tecnologia, scienza e natura",
+      "id": "tecnologia-scienza-e-natura",
+      "icona": "🔬",
       "tr": {
         "en": {
-          "nome": "Fantasy"
+          "nome": "Technology, Science & Nature"
         }
       }
     },
     {
-      "nome": "Orrore",
-      "id": "fantascienza-fantasy-orrore",
+      "nome": "Informatica e programmazione",
+      "id": "tecnologia-scienza-e-natura-informatica-e-programmazione",
       "icona": "",
-      "genitore": "fantascienza-fantasy",
+      "genitore": "tecnologia-scienza-e-natura",
       "tr": {
         "en": {
-          "nome": "Horror"
+          "nome": "Computing & Programming"
         }
       }
     },
     {
-      "nome": "Spaziale",
-      "id": "fantascienza-fantasy-spaziale",
+      "nome": "Intelligenza artificiale",
+      "id": "tecnologia-scienza-e-natura-intelligenza-artificiale",
       "icona": "",
-      "genitore": "fantascienza-fantasy",
+      "genitore": "tecnologia-scienza-e-natura",
       "tr": {
         "en": {
-          "nome": "Space Opera"
+          "nome": "Artificial Intelligence"
         }
       }
     },
     {
-      "nome": "Steampunk",
-      "id": "fantascienza-fantasy-steampunk",
+      "nome": "Web e social media",
+      "id": "tecnologia-scienza-e-natura-web-e-social-media",
       "icona": "",
-      "genitore": "fantascienza-fantasy",
+      "genitore": "tecnologia-scienza-e-natura",
       "tr": {
         "en": {
-          "nome": "Steampunk"
+          "nome": "Web & Social Media"
         }
       }
     },
     {
-      "nome": "Storici",
-      "id": "fantascienza-fantasy-storici",
+      "nome": "Divulgazione scientifica",
+      "id": "tecnologia-scienza-e-natura-divulgazione-scientifica",
       "icona": "",
-      "genitore": "fantascienza-fantasy",
+      "genitore": "tecnologia-scienza-e-natura",
       "tr": {
         "en": {
-          "nome": "Historical"
+          "nome": "Popular Science"
         }
       }
     },
     {
-      "nome": "Fumetti, graphic novel e manga",
-      "id": "fumetti-graphic-novel-manga",
-      "icona": "💥",
-      "tr": {
-        "en": {
-          "nome": "Comics, Graphic Novels & Manga"
-        }
-      }
-    },
-    {
-      "nome": "Film",
-      "id": "fumetti-graphic-novel-manga-film",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Film Tie-ins"
-        }
-      }
-    },
-    {
-      "nome": "Orrore",
-      "id": "fumetti-graphic-novel-manga-orrore",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Horror"
-        }
-      }
-    },
-    {
-      "nome": "Antologie",
-      "id": "fumetti-graphic-novel-manga-antologie",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Anthologies"
-        }
-      }
-    },
-    {
-      "nome": "Donne contemporanee",
-      "id": "fumetti-graphic-novel-manga-donne-contemporanee",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Contemporary Women"
-        }
-      }
-    },
-    {
-      "nome": "Erotismo",
-      "id": "fumetti-graphic-novel-manga-erotismo",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Erotica"
-        }
-      }
-    },
-    {
-      "nome": "Fantascienza",
-      "id": "fumetti-graphic-novel-manga-fantascienza",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Science Fiction"
-        }
-      }
-    },
-    {
-      "nome": "Fantasy",
-      "id": "fumetti-graphic-novel-manga-fantasy",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Fantasy"
-        }
-      }
-    },
-    {
-      "nome": "Gay e lesbiche",
-      "id": "fumetti-graphic-novel-manga-gay-e-lesbiche",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Gay & Lesbian"
-        }
-      }
-    },
-    {
-      "nome": "Gialli e thriller",
-      "id": "fumetti-graphic-novel-manga-gialli-e-thriller",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Mystery & Thriller"
-        }
-      }
-    },
-    {
-      "nome": "Letterario",
-      "id": "fumetti-graphic-novel-manga-letterario",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Literary"
-        }
-      }
-    },
-    {
-      "nome": "Manga",
-      "id": "fumetti-graphic-novel-manga-manga",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Manga"
-        }
-      }
-    },
-    {
-      "nome": "Narrativa storica",
-      "id": "fumetti-graphic-novel-manga-narrativa-storica",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Historical Fiction"
-        }
-      }
-    },
-    {
-      "nome": "Religione",
-      "id": "fumetti-graphic-novel-manga-religione",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Religion"
-        }
-      }
-    },
-    {
-      "nome": "Romanzi d'amore",
-      "id": "fumetti-graphic-novel-manga-romanzi-d-amore",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Romance"
-        }
-      }
-    },
-    {
-      "nome": "Saggistica",
-      "id": "fumetti-graphic-novel-manga-saggistica",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Non-fiction"
-        }
-      }
-    },
-    {
-      "nome": "Supereroi",
-      "id": "fumetti-graphic-novel-manga-supereroi",
-      "icona": "",
-      "genitore": "fumetti-graphic-novel-manga",
-      "tr": {
-        "en": {
-          "nome": "Superheroes"
-        }
-      }
-    },
-    {
-      "nome": "Ragazzi e young adult",
-      "id": "ragazzi-young-adult",
-      "icona": "🎧",
-      "tr": {
-        "en": {
-          "nome": "Teen & Young Adult"
-        }
-      }
-    },
-    {
-      "nome": "Azione",
-      "id": "ragazzi-young-adult-azione",
-      "icona": "",
-      "genitore": "ragazzi-young-adult",
-      "tr": {
-        "en": {
-          "nome": "Action"
-        }
-      }
-    },
-    {
-      "nome": "Distopia",
-      "id": "ragazzi-young-adult-distopia",
-      "icona": "",
-      "genitore": "ragazzi-young-adult",
-      "tr": {
-        "en": {
-          "nome": "Dystopian"
-        }
-      }
-    },
-    {
-      "nome": "Fantascienza",
-      "id": "ragazzi-young-adult-fantascienza",
-      "icona": "",
-      "genitore": "ragazzi-young-adult",
-      "tr": {
-        "en": {
-          "nome": "Science Fiction"
-        }
-      }
-    },
-    {
-      "nome": "Fantasia",
-      "id": "ragazzi-young-adult-fantasia",
-      "icona": "",
-      "genitore": "ragazzi-young-adult",
-      "tr": {
-        "en": {
-          "nome": "Fantasy"
-        }
-      }
-    },
-    {
-      "nome": "Fumetti, graphic novel e manga",
-      "id": "ragazzi-young-adult-fumetti-graphic-novel-e-manga",
-      "icona": "",
-      "genitore": "ragazzi-young-adult",
-      "tr": {
-        "en": {
-          "nome": "Comics, Graphic Novels & Manga"
-        }
-      }
-    },
-    {
-      "nome": "Orrore",
-      "id": "ragazzi-young-adult-orrore",
-      "icona": "",
-      "genitore": "ragazzi-young-adult",
-      "tr": {
-        "en": {
-          "nome": "Horror"
-        }
-      }
-    },
-    {
-      "nome": "Paranormale",
-      "id": "ragazzi-young-adult-paranormale",
-      "icona": "",
-      "genitore": "ragazzi-young-adult",
-      "tr": {
-        "en": {
-          "nome": "Paranormal"
-        }
-      }
-    },
-    {
-      "nome": "Religione",
-      "id": "ragazzi-young-adult-religione",
-      "icona": "",
-      "genitore": "ragazzi-young-adult",
-      "tr": {
-        "en": {
-          "nome": "Religion"
-        }
-      }
-    },
-    {
-      "nome": "Romanzi d'amore",
-      "id": "ragazzi-young-adult-romanzi-d-amore",
-      "icona": "",
-      "genitore": "ragazzi-young-adult",
-      "tr": {
-        "en": {
-          "nome": "Romance"
-        }
-      }
-    },
-    {
-      "nome": "Scolastici",
-      "id": "ragazzi-young-adult-scolastici",
-      "icona": "",
-      "genitore": "ragazzi-young-adult",
-      "tr": {
-        "en": {
-          "nome": "School Stories"
-        }
-      }
-    },
-    {
-      "nome": "Societ\u00e0",
-      "id": "ragazzi-young-adult-societa",
-      "icona": "",
-      "genitore": "ragazzi-young-adult",
-      "tr": {
-        "en": {
-          "nome": "Social Issues"
-        }
-      }
-    },
-    {
-      "nome": "Sport",
-      "id": "ragazzi-young-adult-sport",
-      "icona": "",
-      "genitore": "ragazzi-young-adult",
-      "tr": {
-        "en": {
-          "nome": "Sports"
-        }
-      }
-    },
-    {
-      "nome": "Storici",
-      "id": "ragazzi-young-adult-storici",
-      "icona": "",
-      "genitore": "ragazzi-young-adult",
-      "tr": {
-        "en": {
-          "nome": "Historical"
-        }
-      }
-    },
-    {
-      "nome": "Per bambini",
-      "id": "per-bambini",
-      "icona": "🧸",
-      "tr": {
-        "en": {
-          "nome": "Children's Books"
-        }
-      }
-    },
-    {
-      "nome": "ABC, 123",
-      "id": "per-bambini-abc-123",
-      "icona": "",
-      "genitore": "per-bambini",
-      "tr": {
-        "en": {
-          "nome": "ABC, 123"
-        }
-      }
-    },
-    {
-      "nome": "Animali",
-      "id": "per-bambini-animali",
-      "icona": "",
-      "genitore": "per-bambini",
-      "tr": {
-        "en": {
-          "nome": "Animals"
-        }
-      }
-    },
-    {
-      "nome": "Bello e interessante",
-      "id": "per-bambini-bello-e-interessante",
+      "nome": "Matematica e fisica",
+      "id": "tecnologia-scienza-e-natura-matematica-e-fisica",
       "icona": "",
-      "genitore": "per-bambini",
+      "genitore": "tecnologia-scienza-e-natura",
       "tr": {
         "en": {
-          "nome": "Beautiful & Interesting"
+          "nome": "Mathematics & Physics"
         }
       }
     },
     {
-      "nome": "Creativit\u00e0",
-      "id": "per-bambini-creativita",
+      "nome": "Astronomia e spazio",
+      "id": "tecnologia-scienza-e-natura-astronomia-e-spazio",
       "icona": "",
-      "genitore": "per-bambini",
+      "genitore": "tecnologia-scienza-e-natura",
       "tr": {
         "en": {
-          "nome": "Creativity"
+          "nome": "Astronomy & Space"
         }
       }
     },
     {
-      "nome": "Due ruote, quattro ruote, nessuna ruota",
-      "id": "per-bambini-due-ruote-quattro-ruote-nessuna-ruota",
+      "nome": "Natura e animali",
+      "id": "tecnologia-scienza-e-natura-natura-e-animali",
       "icona": "",
-      "genitore": "per-bambini",
+      "genitore": "tecnologia-scienza-e-natura",
       "tr": {
         "en": {
-          "nome": "Two Wheels, Four Wheels, No Wheels"
+          "nome": "Nature & Animals"
         }
       }
     },
     {
-      "nome": "Fatti una risata!",
-      "id": "per-bambini-fatti-una-risata",
+      "nome": "Ambiente e clima",
+      "id": "tecnologia-scienza-e-natura-ambiente-e-clima",
       "icona": "",
-      "genitore": "per-bambini",
+      "genitore": "tecnologia-scienza-e-natura",
       "tr": {
         "en": {
-          "nome": "Have a Laugh!"
+          "nome": "Environment & Climate"
         }
       }
     },
     {
-      "nome": "Francese, spagnolo e altre lingue",
-      "id": "per-bambini-francese-spagnolo-e-altre-lingue",
-      "icona": "",
-      "genitore": "per-bambini",
-      "tr": {
-        "en": {
-          "nome": "French, Spanish & Other Languages"
-        }
-      }
-    },
-    {
-      "nome": "Fumetti, graphic novel, manga",
-      "id": "per-bambini-fumetti-graphic-novel-manga",
-      "icona": "",
-      "genitore": "per-bambini",
+      "nome": "Vita, hobby e tempo libero",
+      "id": "vita-hobby-e-tempo-libero",
+      "icona": "🎨",
       "tr": {
         "en": {
-          "nome": "Comics, Graphic Novels, Manga"
+          "nome": "Lifestyle, Hobbies & Leisure"
         }
       }
     },
     {
-      "nome": "La mia famiglia, i miei sentimenti, i miei amici",
-      "id": "per-bambini-la-mia-famiglia-i-miei-sentimenti-i-miei-amici",
+      "nome": "Cucina e vini",
+      "id": "vita-hobby-e-tempo-libero-cucina-e-vini",
       "icona": "",
-      "genitore": "per-bambini",
+      "genitore": "vita-hobby-e-tempo-libero",
       "tr": {
         "en": {
-          "nome": "My Family, My Feelings, My Friends"
+          "nome": "Cooking & Wine"
         }
       }
     },
     {
-      "nome": "Luoghi e persone",
-      "id": "per-bambini-luoghi-e-persone",
+      "nome": "Casa, giardino e fai da te",
+      "id": "vita-hobby-e-tempo-libero-casa-giardino-e-fai-da-te",
       "icona": "",
-      "genitore": "per-bambini",
+      "genitore": "vita-hobby-e-tempo-libero",
       "tr": {
         "en": {
-          "nome": "Places & People"
+          "nome": "Home, Garden & DIY"
         }
       }
     },
     {
-      "nome": "Narrativa",
-      "id": "per-bambini-narrativa",
+      "nome": "Viaggi e guide",
+      "id": "vita-hobby-e-tempo-libero-viaggi-e-guide",
       "icona": "",
-      "genitore": "per-bambini",
+      "genitore": "vita-hobby-e-tempo-libero",
       "tr": {
         "en": {
-          "nome": "Fiction"
+          "nome": "Travel & Guides"
         }
       }
     },
     {
-      "nome": "Natura",
-      "id": "per-bambini-natura",
+      "nome": "Arte e fotografia",
+      "id": "vita-hobby-e-tempo-libero-arte-e-fotografia",
       "icona": "",
-      "genitore": "per-bambini",
+      "genitore": "vita-hobby-e-tempo-libero",
       "tr": {
         "en": {
-          "nome": "Nature"
+          "nome": "Art & Photography"
         }
       }
     },
     {
-      "nome": "Read-Along",
-      "id": "per-bambini-read-along",
+      "nome": "Musica, cinema e spettacolo",
+      "id": "vita-hobby-e-tempo-libero-musica-cinema-e-spettacolo",
       "icona": "",
-      "genitore": "per-bambini",
+      "genitore": "vita-hobby-e-tempo-libero",
       "tr": {
         "en": {
-          "nome": "Read-Along"
+          "nome": "Music, Film & Performance"
         }
       }
     },
     {
-      "nome": "Religione",
-      "id": "per-bambini-religione",
+      "nome": "Sport e outdoor",
+      "id": "vita-hobby-e-tempo-libero-sport-e-outdoor",
       "icona": "",
-      "genitore": "per-bambini",
+      "genitore": "vita-hobby-e-tempo-libero",
       "tr": {
         "en": {
-          "nome": "Religion"
+          "nome": "Sports & Outdoors"
         }
       }
     },
     {
-      "nome": "Sport e tempo libero",
-      "id": "per-bambini-sport-e-tempo-libero",
+      "nome": "Religione e spiritualità",
+      "id": "vita-hobby-e-tempo-libero-religione-e-spiritualita",
       "icona": "",
-      "genitore": "per-bambini",
+      "genitore": "vita-hobby-e-tempo-libero",
       "tr": {
         "en": {
-          "nome": "Sports & Leisure"
+          "nome": "Religion & Spirituality"
         }
       }
     },
     {
-      "nome": "Tecnologia",
-      "id": "per-bambini-tecnologia",
+      "nome": "Lingue e studio",
+      "id": "vita-hobby-e-tempo-libero-lingue-e-studio",
       "icona": "",
-      "genitore": "per-bambini",
+      "genitore": "vita-hobby-e-tempo-libero",
       "tr": {
         "en": {
-          "nome": "Technology"
+          "nome": "Languages & Study"
         }
       }
     }
   ],
-  "prodotti": [
-    {
-      "tipo": "digitale",
-      "id": "ebook-150-prompt-chatgpt-per-lavorare-meglio",
-      "nome": "150 prompt ChatGPT per lavorare meglio",
-      "categoria": "ai-prompt",
-      "prezzo_centesimi": 990,
-      "descrizione": "Ebook PDF, download immediato. Argomento: ai e prompt.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "🤖",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "150 ChatGPT Prompts to Work Smarter",
-          "descrizione": "PDF ebook, instant download. Topic: ai & prompts.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-guadagnare-con-l-ai-10-modi-concreti",
-      "nome": "Guadagnare con l'AI: 10 modi concreti",
-      "categoria": "ai-prompt",
-      "prezzo_centesimi": 1490,
-      "descrizione": "Ebook PDF, download immediato. Argomento: ai e prompt.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "🤖",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Making Money with AI: 10 Practical Ways",
-          "descrizione": "PDF ebook, instant download. Topic: ai & prompts.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-immagini-con-l-ai-guida-pratica-ai-prompt",
-      "nome": "Immagini con l'AI: guida pratica ai prompt",
-      "categoria": "ai-prompt",
-      "prezzo_centesimi": 1290,
-      "descrizione": "Ebook PDF, download immediato. Argomento: ai e prompt.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "🤖",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "AI Images: A Practical Prompt Guide",
-          "descrizione": "PDF ebook, instant download. Topic: ai & prompts.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-scrivere-un-libro-in-30-giorni",
-      "nome": "Scrivere un libro in 30 giorni",
-      "categoria": "creativita",
-      "prezzo_centesimi": 1490,
-      "descrizione": "Ebook PDF, download immediato. Argomento: creativit\u00e0.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "🎨",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Write a Book in 30 Days",
-          "descrizione": "PDF ebook, instant download. Topic: creativity.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-fotografia-con-lo-smartphone",
-      "nome": "Fotografia con lo smartphone",
-      "categoria": "creativita",
-      "prezzo_centesimi": 990,
-      "descrizione": "Ebook PDF, download immediato. Argomento: creativit\u00e0.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "🎨",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Smartphone Photography",
-          "descrizione": "PDF ebook, instant download. Topic: creativity.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-grafica-per-non-designer",
-      "nome": "Grafica per non designer",
-      "categoria": "creativita",
-      "prezzo_centesimi": 1290,
-      "descrizione": "Ebook PDF, download immediato. Argomento: creativit\u00e0.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "🎨",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Graphic Design for Non-Designers",
-          "descrizione": "PDF ebook, instant download. Topic: creativity.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-inglese-per-il-lavoro-300-frasi-utili",
-      "nome": "Inglese per il lavoro: 300 frasi utili",
-      "categoria": "lingue-studio",
-      "prezzo_centesimi": 990,
-      "descrizione": "Ebook PDF, download immediato. Argomento: lingue e studio.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "📚",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Business English: 300 Useful Phrases",
-          "descrizione": "PDF ebook, instant download. Topic: languages & study.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-metodo-di-studio-per-esami-e-concorsi",
-      "nome": "Metodo di studio per esami e concorsi",
-      "categoria": "lingue-studio",
-      "prezzo_centesimi": 1290,
-      "descrizione": "Ebook PDF, download immediato. Argomento: lingue e studio.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "📚",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Study Method for Exams",
-          "descrizione": "PDF ebook, instant download. Topic: languages & study.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-imparare-una-lingua-da-soli",
-      "nome": "Imparare una lingua da soli",
-      "categoria": "lingue-studio",
-      "prezzo_centesimi": 990,
-      "descrizione": "Ebook PDF, download immediato. Argomento: lingue e studio.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "📚",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Learn a Language on Your Own",
-          "descrizione": "PDF ebook, instant download. Topic: languages & study.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-abitudini-il-metodo-dei-21-giorni",
-      "nome": "Abitudini: il metodo dei 21 giorni",
-      "categoria": "sviluppo-personale",
-      "prezzo_centesimi": 990,
-      "descrizione": "Ebook PDF, download immediato. Argomento: sviluppo personale.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "🌱",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Habits: The 21-Day Method",
-          "descrizione": "PDF ebook, instant download. Topic: personal growth.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-produttivita-senza-stress",
-      "nome": "Produttivit\u00e0 senza stress",
-      "categoria": "sviluppo-personale",
-      "prezzo_centesimi": 1290,
-      "descrizione": "Ebook PDF, download immediato. Argomento: sviluppo personale.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "🌱",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Stress-Free Productivity",
-          "descrizione": "PDF ebook, instant download. Topic: personal growth.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-smart-working-organizzare-la-giornata",
-      "nome": "Smart working: organizzare la giornata",
-      "categoria": "sviluppo-personale",
-      "prezzo_centesimi": 990,
-      "descrizione": "Ebook PDF, download immediato. Argomento: sviluppo personale.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "🌱",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Remote Work: Organize Your Day",
-          "descrizione": "PDF ebook, instant download. Topic: personal growth.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-bilancio-familiare-in-un-weekend",
-      "nome": "Bilancio familiare in un weekend",
-      "categoria": "finanza",
-      "prezzo_centesimi": 990,
-      "descrizione": "Ebook PDF, download immediato. Argomento: finanza personale.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "💶",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Family Budget in One Weekend",
-          "descrizione": "PDF ebook, instant download. Topic: personal finance.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-investire-da-zero-etf-spiegati-semplici",
-      "nome": "Investire da zero: ETF spiegati semplici",
-      "categoria": "finanza",
-      "prezzo_centesimi": 1990,
-      "descrizione": "Ebook PDF, download immediato. Argomento: finanza personale.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "💶",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Investing from Scratch: ETFs Explained",
-          "descrizione": "PDF ebook, instant download. Topic: personal finance.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-partita-iva-forfettaria-guida-pratica",
-      "nome": "Partita IVA forfettaria: guida pratica",
-      "categoria": "finanza",
-      "prezzo_centesimi": 1990,
-      "descrizione": "Ebook PDF, download immediato. Argomento: finanza personale.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "💶",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Flat-Rate VAT Number: Practical Guide",
-          "descrizione": "PDF ebook, instant download. Topic: personal finance.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-dormire-meglio-il-metodo-passo-passo",
-      "nome": "Dormire meglio: il metodo passo passo",
-      "categoria": "salute",
-      "prezzo_centesimi": 990,
-      "descrizione": "Ebook PDF, download immediato. Argomento: salute e benessere.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "🧘",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Sleep Better: Step by Step",
-          "descrizione": "PDF ebook, instant download. Topic: health & wellness.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-allenarsi-a-casa-programma-di-8-settimane",
-      "nome": "Allenarsi a casa: programma di 8 settimane",
-      "categoria": "salute",
-      "prezzo_centesimi": 1490,
-      "descrizione": "Ebook PDF, download immediato. Argomento: salute e benessere.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "🧘",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Home Workout: 8-Week Program",
-          "descrizione": "PDF ebook, instant download. Topic: health & wellness.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-meditazione-per-chi-non-ha-tempo",
-      "nome": "Meditazione per chi non ha tempo",
-      "categoria": "salute",
-      "prezzo_centesimi": 790,
-      "descrizione": "Ebook PDF, download immediato. Argomento: salute e benessere.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "🧘",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Meditation for Busy People",
-          "descrizione": "PDF ebook, instant download. Topic: health & wellness.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-aprire-un-e-commerce-dalla-a-alla-z",
-      "nome": "Aprire un e-commerce: dalla A alla Z",
-      "categoria": "business",
-      "prezzo_centesimi": 2490,
-      "descrizione": "Ebook PDF, download immediato. Argomento: business.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "💼",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Start an E-commerce Store: A to Z",
-          "descrizione": "PDF ebook, instant download. Topic: business.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-freelance-trovare-i-primi-clienti",
-      "nome": "Freelance: trovare i primi clienti",
-      "categoria": "business",
-      "prezzo_centesimi": 1490,
-      "descrizione": "Ebook PDF, download immediato. Argomento: business.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "💼",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Freelancing: Landing Your First Clients",
-          "descrizione": "PDF ebook, instant download. Topic: business.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    },
-    {
-      "tipo": "digitale",
-      "id": "ebook-seo-per-piccoli-siti",
-      "nome": "SEO per piccoli siti",
-      "categoria": "business",
-      "prezzo_centesimi": 1490,
-      "descrizione": "Ebook PDF, download immediato. Argomento: business.",
-      "descrizione_completa": "Guida pratica in formato PDF, scritta per essere applicata subito.\nDownload immediato dopo il pagamento.\nIncluso: anteprima gratuita dei primi capitoli.",
-      "immagine": "",
-      "icona": "💼",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "SEO for Small Websites",
-          "descrizione": "PDF ebook, instant download. Topic: business.",
-          "descrizione_completa": "A practical PDF guide you can apply right away.\nInstant download after payment.\nIncluded: free preview of the first chapters."
-        }
-      }
-    }
-  ]
+  "prodotti": []
 }

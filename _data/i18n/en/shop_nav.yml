@@ -1,4 +1,29 @@
-# Shop dropdown entries in the navbar (English)
-categories: []
+# Voci del dropdown Shop nella navbar (reparti). Generato da automation/nuovo_catalogo.py
+
+categories:
+  - title: "Crime, Thrillers & Noir"
+    url: /en/shop/category/crime-thrillers-noir/
+  - title: "Romance & Love Stories"
+    url: /en/shop/category/romance-love-stories/
+  - title: "Fantasy & Science Fiction"
+    url: /en/shop/category/fantasy-science-fiction/
+  - title: "Fiction & Classics"
+    url: /en/shop/category/fiction-classics/
+  - title: "Comics, Manga & Graphic Novels"
+    url: /en/shop/category/comics-manga-graphic-novels/
+  - title: "Kids & Young Readers"
+    url: /en/shop/category/kids-young-readers/
+  - title: "Biographies & Memoirs"
+    url: /en/shop/category/biographies-memoirs/
+  - title: "History, Politics & Society"
+    url: /en/shop/category/history-politics-society/
+  - title: "Business, Work & Finance"
+    url: /en/shop/category/business-work-finance/
+  - title: "Self-Improvement & Wellbeing"
+    url: /en/shop/category/self-improvement-wellbeing/
+  - title: "Technology, Science & Nature"
+    url: /en/shop/category/technology-science-nature/
+  - title: "Lifestyle, Hobbies & Leisure"
+    url: /en/shop/category/lifestyle-hobbies-leisure/
 
 featured: []

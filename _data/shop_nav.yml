@@ -1,6 +1,29 @@
-# Voci del dropdown Shop nella navbar
-# Editabile dall'admin — si riflette automaticamente sul sito
+# Voci del dropdown Shop nella navbar (reparti). Generato da automation/nuovo_catalogo.py
 
-categories: []
+categories:
+  - title: "Gialli, thriller e noir"
+    url: /negozio/categoria/gialli-thriller-e-noir/
+  - title: "Romance e storie d'amore"
+    url: /negozio/categoria/romance-e-storie-d-amore/
+  - title: "Fantasy e fantascienza"
+    url: /negozio/categoria/fantasy-e-fantascienza/
+  - title: "Narrativa e classici"
+    url: /negozio/categoria/narrativa-e-classici/
+  - title: "Fumetti, manga e graphic novel"
+    url: /negozio/categoria/fumetti-manga-e-graphic-novel/
+  - title: "Bambini e ragazzi"
+    url: /negozio/categoria/bambini-e-ragazzi/
+  - title: "Biografie e memorie"
+    url: /negozio/categoria/biografie-e-memorie/
+  - title: "Storia, politica e società"
+    url: /negozio/categoria/storia-politica-e-societa/
+  - title: "Economia, lavoro e finanza"
+    url: /negozio/categoria/economia-lavoro-e-finanza/
+  - title: "Crescita personale e benessere"
+    url: /negozio/categoria/crescita-personale-e-benessere/
+  - title: "Tecnologia, scienza e natura"
+    url: /negozio/categoria/tecnologia-scienza-e-natura/
+  - title: "Vita, hobby e tempo libero"
+    url: /negozio/categoria/vita-hobby-e-tempo-libero/
 
 featured: []
